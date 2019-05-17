@@ -1,0 +1,26 @@
+{
+  "name": "proton-docs",
+  "private": true,
+  "repository": "git@github.com:efellemedia/proton-docs.git",
+  "author": "Shea Lewis (Kai) <shea.lewis89@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.15",
+    "query-string": "^6.5.0",
+    "sass": "^1.20.1",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^1.0.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
