@@ -18,7 +18,7 @@ mix.setPublicPath('public')
     .webpackConfig({
         resolve: {
             alias: {
-                '@': __dirname + '/resources',
+                'resources': __dirname + '/resources',
             },
         },
         output: {

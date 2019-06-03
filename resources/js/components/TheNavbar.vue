@@ -1,13 +1,13 @@
 <template>
-    <div class="bg-white fixed w-full z-10 pin-t border-b border-gray-200">
+    <div class="bg-white fixed w-full z-20 pin-t border-b border-gray-300">
         <nav class="w-full container mx-auto flex flex-wrap items-center mt-0 py-3 px-6">
-            <div class="w-1/2 pl-2 md:pl-0">
-                <a href="/" class="text-gray-800 text-base xl:text-xl no-underline hover:no-underline font-semibold">
+            <div class="w-full text-center lg:w-1/2 lg:text-left pl-2 md:pl-0">
+                <a href="/" class="text-gray-800 text-2xl no-underline hover:no-underline font-bold">
                     Proton
                 </a>
             </div>
             
-            <div class="w-1/2 pr-0">
+            <div class="w-1/2 pr-0 hidden lg:block">
                 <div class="flex relative inline-block float-right">
                     <ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
                         <li class="mr-6 my-2 md:my-0">
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-    import routes from '@/data/routes'
+    import routes from 'resources/data/routes'
     
     export default {
         props: {

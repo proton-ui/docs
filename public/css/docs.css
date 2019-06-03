@@ -7551,6 +7551,124 @@ video {
   z-index: auto;
 }
 
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.buttons > .button {
+  margin-bottom: 1.5rem;
+}
+
+.buttons > .button:not(:last-child) {
+  margin-right: 0.75rem;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  background-color: #fff;
+  border-width: 1px;
+  border-color: #edf2f7;
+  color: #1a202c;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  line-height: 1.25;
+}
+
+.button:hover {
+  background-color: #edf2f7;
+  color: #000;
+}
+
+.button:focus {
+  outline: 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.button--small {
+  font-size: 0.75rem;
+}
+
+.button--large {
+  font-size: 1.25rem;
+}
+
+.button--primary {
+  background-color: #38b2ac;
+  color: #fff;
+  border-width: 0;
+}
+
+.button--primary:hover {
+  background-color: #2c7a7b;
+  color: #fff;
+}
+
+.button--secondary {
+  background-color: #4a5568;
+  color: #fff;
+  border-width: 0;
+}
+
+.button--secondary:hover {
+  background-color: #1a202c;
+  color: #fff;
+}
+
+.button--info {
+  background-color: #9f7aea;
+  color: #fff;
+  border-width: 0;
+}
+
+.button--info:hover {
+  background-color: #6b46c1;
+  color: #fff;
+}
+
+.button--success {
+  background-color: #48bb78;
+  color: #fff;
+  border-width: 0;
+}
+
+.button--success:hover {
+  background-color: #2f855a;
+  color: #fff;
+}
+
+.button--warning {
+  background-color: #ecc94b;
+  border-width: 0;
+}
+
+.button--warning:hover {
+  background-color: #b7791f;
+}
+
+.button--danger {
+  background-color: #f56565;
+  color: #fff;
+  border-width: 0;
+}
+
+.button--danger:hover {
+  background-color: #c53030;
+  color: #fff;
+}
+
 h1 {
   font-size: 1.5rem;
   line-height: 1.5;

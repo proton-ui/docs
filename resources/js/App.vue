@@ -1,12 +1,13 @@
 <template>
-    <div>
+    <div class="h-full flex">
+        <div class="absolute bg-gray-100 hidden lg:block" style="right: 50%; bottom: 0; left: 0; top: 0;"></div>
         <the-navbar></the-navbar>
 
-        <main class="container w-full mx-auto pt-20">
-            <div class="w-full flex flex-wrap px-6 md:px-0 md:mt-8 mb-16">
+        <main class="container w-full mx-auto h-full flex" style="padding-top: 60px;">
+            <div class="w-full flex flex-wrap flex-1">
                 <the-sidebar :data="menu"></the-sidebar>
                 
-                <div class="w-full lg:w-4/5">
+                <div class="z-10 w-full lg:w-4/5 bg-white p-6 lg:border-l border-gray-300">
                     <the-header :title="meta.title"></the-header>
 
                     <router-view></router-view>
@@ -20,7 +21,7 @@
     import TheNavbar from './components/TheNavbar'
     import TheHeader from './components/TheHeader'
     import TheSidebar from './components/TheSidebar'
-    import menuData from '@/data/menu'
+    import menuData from 'resources/data/menu'
 
     export default {
         data() {

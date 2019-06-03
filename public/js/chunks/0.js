@@ -15,15 +15,187 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "article",
+    [
+      _c("h2", [_vm._v("Example")]),
+      _vm._v(" "),
+      _c(
+        "example",
+        [
+          _c("p-button", [_vm._v("Default")]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { theme: "primary" } }, [_vm._v("Primary")]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { theme: "secondary" } }, [
+            _vm._v("Secondary")
+          ]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { theme: "success" } }, [_vm._v("Success")]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { theme: "danger" } }, [_vm._v("Danger")]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { theme: "warning" } }, [_vm._v("Warning")]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { theme: "info" } }, [_vm._v("Info")]),
+          _vm._v(" "),
+          _c("template", { slot: "code" }, [
+            _c(
+              "textarea",
+              {
+                pre: true,
+                attrs: {
+                  class: "w-full h-auto font-mono bg-gray-100",
+                  readonly: ""
+                }
+              },
+              [
+                _vm._v(
+                  '                <p-button>Default</p-button>\n                <p-button theme="primary">Primary</p-button>\n                <p-button theme="secondary">Secondary</p-button>\n                <p-button theme="success">Success</p-button>\n                <p-button theme="danger">Danger</p-button>\n                <p-button theme="warning">Warning</p-button>\n                <p-button theme="info">Info</p-button>\n            '
+                )
+              ]
+            )
+          ])
+        ],
+        2
+      ),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Size")]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "example",
+        [
+          _c("p-button", { attrs: { size: "large" } }, [
+            _vm._v("Large Button")
+          ]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { size: "large", theme: "secondary" } }, [
+            _vm._v("Large Button")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "example",
+        [
+          _c("p-button", { attrs: { size: "small" } }, [
+            _vm._v("Small Button")
+          ]),
+          _vm._v(" "),
+          _c("p-button", { attrs: { size: "small", theme: "secondary" } }, [
+            _vm._v("Small Button")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Props")]),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Slots")]),
+      _vm._v(" "),
+      _vm._m(2)
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("article", [
-      _c("p", [_vm._v("\n        Button Component\n    ")])
+    return _c("p", [
+      _vm._v("Define the size of the button with the "),
+      _c("code", [_vm._v("size")]),
+      _vm._v(" property.")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("table", [
+      _c("thead", [
+        _c("tr", [
+          _c("th", [_vm._v("Name")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Type")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Description")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Options")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Default")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("tbody", [
+        _c("tr", [
+          _c("td", [_c("code", [_vm._v("size")])]),
+          _vm._v(" "),
+          _c("td", [_c("code", [_vm._v("String")])]),
+          _vm._v(" "),
+          _c("td", [_vm._v("Define the size of the button.")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("normal, small, large")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("normal")])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_c("code", [_vm._v("theme")])]),
+          _vm._v(" "),
+          _c("td", [_c("code", [_vm._v("String")])]),
+          _vm._v(" "),
+          _c("td", [_vm._v("Define the theme of the button.")]),
+          _vm._v(" "),
+          _c("td", [
+            _vm._v(
+              "default, primary, secondary, info, success, warning, danger, dark"
+            )
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("default")])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_c("code", [_vm._v("disabled")])]),
+          _vm._v(" "),
+          _c("td", [_c("code", [_vm._v("Boolean")])]),
+          _vm._v(" "),
+          _c("td", [_vm._v("If the button should be disabled or not.")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("true, false")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("false")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("table", [
+      _c("thead", [
+        _c("tr", [
+          _c("th", [_vm._v("Name")]),
+          _vm._v(" "),
+          _c("th", [_vm._v("Description")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("tbody", [
+        _c("tr", [
+          _c("td", [_c("code", [_vm._v("default")])]),
+          _vm._v(" "),
+          _c("td", [_vm._v("Main text of the button.")])
+        ])
+      ])
     ])
   }
 ]

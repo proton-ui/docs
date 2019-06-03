@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import routes from '@/data/routes'
+import routes from 'resources/data/routes'
 
 Vue.use(Router)
 

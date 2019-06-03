@@ -13,6 +13,7 @@
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@efelle/proton": "^1.0.0-beta.11",
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.15",
     "query-string": "^6.5.0",

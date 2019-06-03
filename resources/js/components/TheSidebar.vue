@@ -1,5 +1,5 @@
 <template>
-    <aside class="w-full lg:w-1/5 lg:px-6 text-sm">
+    <aside class="w-full lg:w-1/5 hidden lg:block text-sm p-6 z-10">
         <template v-for="(items, index) in data">
             <p :key="items.category" class="font-semibold uppercase text-gray-500 tracking-wider leading-loose pb-1">
                 {{ items.category }}
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-    import routes from '@/data/routes'
+    import routes from 'resources/data/routes'
 
     export default {
         props: ['data'],

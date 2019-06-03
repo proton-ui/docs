@@ -1,0 +1,79 @@
+.buttons {
+    @apply .flex .flex-wrap .items-center;
+
+    > .button {
+        @apply  .mb-6;
+    }
+
+    > .button:not(:last-child) {
+        @apply .mr-3;
+    }
+}
+
+.button {
+    @apply .cursor-pointer .inline-flex .justify-center .text-base .py-2 .px-3 .rounded .shadow .no-underline .bg-white .border .border-gray-200 .text-gray-900 .appearance-none .leading-tight;
+
+    &:hover {
+        @apply .bg-gray-200 .text-black;
+    }
+
+    &:focus {
+        @apply .outline-none .shadow-md;
+    }
+
+    &--small {
+        @apply .text-xs;
+    }
+
+    &--large {
+        @apply .text-xl;
+    }
+
+    &--primary {
+        @apply .bg-teal-500 .text-white .border-0;
+
+        &:hover {
+            @apply .bg-teal-700 .text-white;
+        }
+    }
+
+    &--secondary {
+        @apply .bg-gray-700 .text-white .border-0;
+
+        &:hover {
+            @apply .bg-gray-900 .text-white;
+        }
+    }
+
+    &--info {
+        @apply .bg-purple-500 .text-white .border-0;
+
+        &:hover {
+            @apply .bg-purple-700 .text-white;
+        }
+    }
+
+    &--success {
+        @apply .bg-green-500 .text-white .border-0;
+
+        &:hover {
+            @apply .bg-green-700 .text-white;
+        }
+    }
+
+    &--warning {
+        @apply .bg-yellow-500 .border-0;
+
+        &:hover {
+            @apply .bg-yellow-700;
+        }
+    }
+
+    &--danger {
+        @apply .bg-red-500 .text-white .border-0;
+
+        &:hover {
+            @apply .bg-red-700 .text-white;
+        }
+    }
+}
