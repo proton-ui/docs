@@ -97671,7 +97671,7 @@ module.exports = function(module) {
 /*! exports provided: documentation, default */
 /***/ (function(module) {
 
-module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card"]}]};
+module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card","/documentation/components/treeview"]}]};
 
 /***/ }),
 
@@ -97679,10 +97679,10 @@ module.exports = {"documentation":[{"category":"Development","pages":["/document
 /*!************************************!*\
   !*** ./resources/data/routes.json ***!
   \************************************/
-/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, default */
+/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, /documentation/components/treeview, default */
 /***/ (function(module) {
 
-module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"}};
+module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"},"/documentation/components/treeview":{"title":"Treeview","subtitle":"Use treeviews to display large amounts of nested data.","path":"/documentation/components/treeview"}};
 
 /***/ }),
 
@@ -98306,6 +98306,14 @@ var map = {
 		"./resources/js/pages/Components/Card.vue",
 		6
 	],
+	"./Components/Treeview": [
+		"./resources/js/pages/Components/Treeview.vue",
+		8
+	],
+	"./Components/Treeview.vue": [
+		"./resources/js/pages/Components/Treeview.vue",
+		8
+	],
 	"./Contributing": [
 		"./resources/js/pages/Contributing.vue",
 		1
@@ -98400,7 +98408,7 @@ function route(path, _component) {
 }
 
 var records = [route('/', 'Home'), route('/documentation', 'Documentation'), route('/documentation/getting-started', 'GettingStarted'), route('/documentation/contributing', 'Contributing'), route('/documentation/roadmap', 'Roadmap'), // Components
-route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), {
+route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), route('/documentation/components/treeview', 'Components/Treeview'), {
   path: '*',
   redirect: '/'
 }];

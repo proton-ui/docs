@@ -13,7 +13,8 @@
             "category": "Components",
             "pages": [
                 "/documentation/components/button",
-                "/documentation/components/card"
+                "/documentation/components/card",
+                "/documentation/components/treeview"
             ]
         }
     ]

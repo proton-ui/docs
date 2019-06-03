@@ -42,5 +42,11 @@
         "title": "Card",
         "subtitle": "Use cards to provide a flexible but distinguishable container for your content.",
         "path": "/documentation/components/card"
+    },
+
+    "/documentation/components/treeview": {
+        "title": "Treeview",
+        "subtitle": "Use treeviews to display large amounts of nested data.",
+        "path": "/documentation/components/treeview"
     }
 }

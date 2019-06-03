@@ -6,6 +6,7 @@
 @import "./components/card";
 @import "./components/tab";
 @import "./components/table";
+@import "./components/treeview";
 
 @import "./vendor/highlight";
 
@@ -53,16 +54,26 @@ code {
     @apply bg-gray-200 text-gray-700 text-xs px-2 py-2 rounded;
 }
 
-.proton-example {
-    border: 4px solid #F1F5F8;
-    border-radius: .25rem;
-    margin: 0.85rem 0;
+.proton-example, .code-reference {
+    @apply border-4 border-gray-200 rounded my-6;
+
+    pre code {
+        @apply p-6;
+    }
 }
 
 .proton-example__preview {
-    @apply p-4;
+    @apply p-6;
 }
 
 .proton-example__markup {
-    @apply border-none bg-gray-100 p-3;
+    @apply border-none bg-gray-100;
+
+    .code-reference {
+        @apply border-none m-0;
+
+        // pre code {
+        //     @apply p-0;
+        // }
+    }
 }
