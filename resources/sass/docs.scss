@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import "./components/button";
+@import "./components/card";
 @import "./components/tab";
 @import "./components/table";
 
@@ -16,12 +17,28 @@
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    @apply leading-normal font-bold leading-tight;
+
+    &:not(:first-child) {
+        @apply .mt-2;
+    }
+}
+
 h1 {
-    @apply text-2xl leading-normal mb-6 font-bold;
+    @apply text-2xl mb-6;
 }
 
 h2 {
-    @apply text-xl leading-tight mb-5 font-bold;
+    @apply text-xl mb-5;
+}
+
+h3 {
+    @apply text-lg mb-4;
+}
+
+h4 {
+    @apply mb-3;
 }
 
 p {

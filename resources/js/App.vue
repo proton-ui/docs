@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full flex">
+    <div class="h-full flex relative">
         <div class="absolute bg-gray-100 hidden lg:block" style="right: 50%; bottom: 0; left: 0; top: 0;"></div>
         <the-navbar></the-navbar>
 

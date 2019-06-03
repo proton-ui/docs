@@ -24,6 +24,7 @@ const records = [
 
     // Components
     route('/documentation/components/button', 'Components/Button'),
+    route('/documentation/components/card', 'Components/Card'),
 
     { path: '*', redirect: '/' }
 ]

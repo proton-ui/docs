@@ -82328,7 +82328,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "h-full flex" },
+    { staticClass: "h-full flex relative" },
     [
       _c("div", {
         staticClass: "absolute bg-gray-100 hidden lg:block",
@@ -97671,7 +97671,7 @@ module.exports = function(module) {
 /*! exports provided: documentation, default */
 /***/ (function(module) {
 
-module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button"]}]};
+module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card"]}]};
 
 /***/ }),
 
@@ -97679,10 +97679,10 @@ module.exports = {"documentation":[{"category":"Development","pages":["/document
 /*!************************************!*\
   !*** ./resources/data/routes.json ***!
   \************************************/
-/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, default */
+/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, default */
 /***/ (function(module) {
 
-module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"}};
+module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"}};
 
 /***/ }),
 
@@ -98292,51 +98292,59 @@ document.addEventListener('DOMContentLoaded', function () {
 var map = {
 	"./Components/Button": [
 		"./resources/js/pages/Components/Button.vue",
-		7
+		0
 	],
 	"./Components/Button.vue": [
 		"./resources/js/pages/Components/Button.vue",
-		7
+		0
+	],
+	"./Components/Card": [
+		"./resources/js/pages/Components/Card.vue",
+		6
+	],
+	"./Components/Card.vue": [
+		"./resources/js/pages/Components/Card.vue",
+		6
 	],
 	"./Contributing": [
 		"./resources/js/pages/Contributing.vue",
-		2
+		1
 	],
 	"./Contributing.vue": [
 		"./resources/js/pages/Contributing.vue",
-		2
+		1
 	],
 	"./Documentation": [
 		"./resources/js/pages/Documentation.vue",
-		3
+		2
 	],
 	"./Documentation.vue": [
 		"./resources/js/pages/Documentation.vue",
-		3
+		2
 	],
 	"./GettingStarted": [
 		"./resources/js/pages/GettingStarted.vue",
-		4
+		3
 	],
 	"./GettingStarted.vue": [
 		"./resources/js/pages/GettingStarted.vue",
-		4
+		3
 	],
 	"./Home": [
 		"./resources/js/pages/Home.vue",
-		5
+		4
 	],
 	"./Home.vue": [
 		"./resources/js/pages/Home.vue",
-		5
+		4
 	],
 	"./Roadmap": [
 		"./resources/js/pages/Roadmap.vue",
-		6
+		5
 	],
 	"./Roadmap.vue": [
 		"./resources/js/pages/Roadmap.vue",
-		6
+		5
 	]
 };
 function webpackAsyncContext(req) {
@@ -98392,7 +98400,7 @@ function route(path, _component) {
 }
 
 var records = [route('/', 'Home'), route('/documentation', 'Documentation'), route('/documentation/getting-started', 'GettingStarted'), route('/documentation/contributing', 'Contributing'), route('/documentation/roadmap', 'Roadmap'), // Components
-route('/documentation/components/button', 'Components/Button'), {
+route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), {
   path: '*',
   redirect: '/'
 }];

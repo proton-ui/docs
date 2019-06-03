@@ -36,5 +36,11 @@
         "title": "Button",
         "subtitle": "Use buttons to perform actions in forms, dialogs, and more.",
         "path": "/documentation/components/button"
+    },
+
+    "/documentation/components/card": {
+        "title": "Card",
+        "subtitle": "Use cards to provide a flexible but distinguishable container for your content.",
+        "path": "/documentation/components/card"
     }
 }

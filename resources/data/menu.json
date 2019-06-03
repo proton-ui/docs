@@ -12,7 +12,8 @@
         {
             "category": "Components",
             "pages": [
-                "/documentation/components/button"
+                "/documentation/components/button",
+                "/documentation/components/card"
             ]
         }
     ]
