@@ -1,27 +1,27 @@
 <template>
-    <aside class="w-full lg:w-1/5 hidden lg:block text-sm p-6 z-10">
+    <aside class="w-full lg:w-1/5 hidden lg:block text-sm py-6 pl-6 z-10">
         <template v-for="(items, index) in data">
             <p :key="items.category" class="font-semibold uppercase text-gray-500 tracking-wider leading-loose pb-1">
                 {{ items.category }}
             </p>
 
             <ul :key="index" class="leading-loose mb-6">
-                <li v-for="item in normalizedData(items.pages)" :key="item.path" class="pb-1">
-                    <router-link v-if="item.title" :to="item.path">
+                <router-link tag="li" v-for="item in normalizedData(items.pages)" :key="item.path" :to="item.path" class="sidebar__item">
+                    <a v-if="item.title" class="sidebar__link">
                         <span>{{ item.title }}</span>
-                    </router-link>
+                    </a>
 
                     <template v-else>
                         <p>{{ item.category }}</p>
                         <ul>
-                            <li v-for="subItem in normalizedData(item.pages)" :key="subItem.title">
-                                <router-link :to="subItem.path">
+                            <li v-for="subItem in normalizedData(item.pages)" :key="subItem.title" class="sidebar__item">
+                                <router-link :to="subItem.path" class="sidebar__link">
                                     <span>{{ subItem.title }}</span>
                                 </router-link>
                             </li>
                         </ul>
                     </template>
-                </li>
+                </router-link>
             </ul>
         </template>
     </aside>

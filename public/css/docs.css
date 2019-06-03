@@ -7669,6 +7669,279 @@ video {
   color: #fff;
 }
 
+.tab {
+  flex: none;
+}
+
+.tab__list {
+  display: flex;
+  border-bottom-width: 1px;
+  border-color: #edf2f7;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.tab__link {
+  display: block;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #4a5568;
+  font-weight: 400;
+  border-bottom-width: 4px;
+  border-color: transparent;
+}
+
+.tab__link:hover {
+  background-color: #f7fafc;
+  color: #1a202c;
+}
+
+.tab__link:focus {
+  outline: 0;
+}
+
+.tab__panel {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.tab--active a {
+  color: #000;
+  border-bottom-width: 4px;
+  border-color: #edf2f7;
+}
+
+table {
+  border-width: 0;
+  width: 100%;
+  position: relative;
+  border-collapse: collapse;
+}
+
+table thead {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
+table th, table td {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 0.875rem;
+}
+
+table tr {
+  border-bottom-width: 4px;
+  border-color: #edf2f7;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+table td {
+  border-bottom-width: 1px;
+  border-color: #edf2f7;
+  display: block;
+  text-align: right;
+}
+
+table td::before {
+  float: left;
+  font-weight: 600;
+  content: attr(data-label);
+}
+
+@media (min-width: 768px) {
+  table {
+    display: table;
+  }
+
+  table thead {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-bottom-width: 4px;
+    border-color: #edf2f7;
+    display: table-header-group;
+  }
+
+  table tr {
+    border-width: 0;
+    display: table-row;
+  }
+
+  table th, table td {
+    text-align: left;
+    border-width: 0;
+    display: table-cell;
+  }
+
+  table tbody {
+    display: table-row-group;
+  }
+
+  table td::before {
+    content: "";
+  }
+}
+
+.sortable {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  opacity: 0.6;
+}
+
+.arrow--asc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #222;
+}
+
+.arrow--desc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #222;
+}
+
+/*
+
+Atom One Light by Daniel Gamage
+Original One Light Syntax theme from https://github.com/atom/one-light-syntax
+
+base:    #fafafa
+mono-1:  #383a42
+mono-2:  #686b77
+mono-3:  #a0a1a7
+hue-1:   #0184bb
+hue-2:   #4078f2
+hue-3:   #a626a4
+hue-4:   #50a14f
+hue-5:   #e45649
+hue-5-2: #c91243
+hue-6:   #986801
+hue-6-2: #c18401
+
+*/
+
+.hljs {
+  background-color: #f7fafc;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: block;
+  color: #2d3748;
+  overflow-x: auto;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #a626a4;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e45649;
+}
+
+.hljs-literal {
+  color: #0184bb;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #50a14f;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #c18401;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #986801;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #4078f2;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.sidebar__item {
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sidebar__item.router-link-exact-active {
+  background-color: #fff;
+  border-color: #edf2f7;
+}
+
 h1 {
   font-size: 1.5rem;
   line-height: 1.5;
@@ -7690,6 +7963,33 @@ p {
 
 p + p {
   padding-top: 1rem;
+}
+
+code {
+  background-color: #edf2f7;
+  color: #4a5568;
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.proton-example {
+  border: 4px solid #F1F5F8;
+  border-radius: 0.25rem;
+  margin: 0.85rem 0;
+}
+
+.proton-example__preview {
+  padding: 1rem;
+}
+
+.proton-example__markup {
+  border-style: none;
+  background-color: #f7fafc;
+  padding: 0.75rem;
 }
 
 @media (min-width: 640px) {

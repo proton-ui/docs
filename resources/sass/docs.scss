@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @import "./components/button";
+@import "./components/tab";
+@import "./components/table";
+
+@import "./vendor/highlight";
+
+.sidebar__item {
+    @apply pl-2 py-1 border-t border-l border-b border-transparent rounded rounded-r-none;
+
+    &.router-link-exact-active {
+        @apply bg-white border-gray-200;
+    }
+}
 
 h1 {
     @apply text-2xl leading-normal mb-6 font-bold;
@@ -18,4 +30,22 @@ p {
     + p {
         @apply pt-4;
     }
+}
+
+code {
+    @apply bg-gray-200 text-gray-700 text-xs px-2 py-2 rounded;
+}
+
+.proton-example {
+    border: 4px solid #F1F5F8;
+    border-radius: .25rem;
+    margin: 0.85rem 0;
+}
+
+.proton-example__preview {
+    @apply p-4;
+}
+
+.proton-example__markup {
+    @apply border-none bg-gray-100 p-3;
 }

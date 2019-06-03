@@ -1,96 +1,64 @@
 <template>
     <article>
         <h2>Example</h2>
-
-        <example>
-            <p-button>Default</p-button>
-            <p-button theme="primary">Primary</p-button>
-            <p-button theme="secondary">Secondary</p-button>
-            <p-button theme="success">Success</p-button>
-            <p-button theme="danger">Danger</p-button>
-            <p-button theme="warning">Warning</p-button>
-            <p-button theme="info">Info</p-button>
-
-            <template slot="code">
-                <textarea class="w-full h-auto font-mono bg-gray-100" readonly v-pre>
-                    <p-button>Default</p-button>
-                    <p-button theme="primary">Primary</p-button>
-                    <p-button theme="secondary">Secondary</p-button>
-                    <p-button theme="success">Success</p-button>
-                    <p-button theme="danger">Danger</p-button>
-                    <p-button theme="warning">Warning</p-button>
-                    <p-button theme="info">Info</p-button>
-                </textarea>
-            </template>
-        </example>
+        <example :component="Simple" :code="SimpleCode"></example>
 
         <h2>Size</h2>
         <p>Define the size of the button with the <code>size</code> property.</p>
 
-        <example>
-            <p-button size="large">Large Button</p-button>
-            <p-button size="large" theme="secondary">Large Button</p-button>
-        </example>
+        <example :component="LargeSize" :code="LargeSizeCode"></example>
+        <example :component="SmallSize" :code="SmallSizeCode"></example>
 
-        <example>
-            <p-button size="small">Small Button</p-button>
-            <p-button size="small" theme="secondary">Small Button</p-button>
-        </example>
+        <api-reference :data="[{
+            props: [
+                {
+                    name: '<code>size</code>',
+                    description: 'Define the size of the button.',
+                    type: '<code>String</code>',
+                    values: 'normal, small, large',
+                    default: 'normal',
+                },
 
-        <h2>Props</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Type</th>
-                    <th>Description</th>
-                    <th>Options</th>
-                    <th>Default</th>
-                </tr>
-            </thead>
+                {
+                    name: '<code>theme</code>',
+                    type: '<code>String</code>',
+                    description: 'Define the theme of the button.',
+                    values: 'default, primary, secondary, info, success, warning, danger, dark',
+                    default: 'default',
+                },
+            ],
 
-            <tbody>
-                <tr>
-                    <td><code>size</code></td>
-                    <td><code>String</code></td>
-                    <td>Define the size of the button.</td>
-                    <td>normal, small, large</td>
-                    <td>normal</td>
-                </tr>
+            slots: [
+                {
+                    name: '<code>default</code>',
+                    description: 'Main text of the button.',
+                }
+            ]
+        }]">
 
-                <tr>
-                    <td><code>theme</code></td>
-                    <td><code>String</code></td>
-                    <td>Define the theme of the button.</td>
-                    <td>default, primary, secondary, info, success, warning, danger, dark</td>
-                    <td>default</td>
-                </tr>
-
-                <tr>
-                    <td><code>disabled</code></td>
-                    <td><code>Boolean</code></td>
-                    <td>If the button should be disabled or not.</td>
-                    <td>true, false</td>
-                    <td>false</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2>Slots</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td><code>default</code></td>
-                    <td>Main text of the button.</td>
-                </tr>
-            </tbody>
-        </table>
+        </api-reference>
     </article>
 </template>
+
+<script>
+    import Simple from '../../examples/Button/Simple'
+    import SimpleCode from '!!raw-loader!../../examples/Button/Simple'
+    import LargeSize from '../../examples/Button/LargeSize'
+    import LargeSizeCode from '!!raw-loader!../../examples/Button/LargeSize'
+    import SmallSize from '../../examples/Button/SmallSize'
+    import SmallSizeCode from '!!raw-loader!../../examples/Button/SmallSize'
+
+    export default {
+        data() {
+            return {
+                Simple,
+                SimpleCode,
+                LargeSize,
+                LargeSizeCode,
+                SmallSize,
+                SmallSizeCode,
+            }
+        }
+    }
+</script>
+
