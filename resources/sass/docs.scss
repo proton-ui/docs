@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 h1 {
-    @apply text-xl font-bold;
+    @apply text-2xl leading-normal mb-6 font-bold;
+}
+
+h2 {
+    @apply text-xl leading-tight mb-5 font-bold;
+}
+
+p {
+    @apply text-base leading-loose;
+
+    + p {
+        @apply pt-4;
+    }
 }

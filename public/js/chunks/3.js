@@ -29,7 +29,7 @@ var staticRenderFns = [
         _vm._v("\n        Yeah yeah, we get it, there are "),
         _c("i", [_vm._v("tons")]),
         _vm._v(
-          " of UI libraries and frameworks out there on the web, so why another one? We love working with Tailwind and Vue and didn't find any UI library out there to easily pop into our projects. So, we're scratching our own itch here and made it open-source in the process. Figured this would be useful for others out there in the same boat.\n    "
+          " of UI libraries and frameworks out there on the web, so why another one? We love working with Tailwind and Vue and didn't find any UI library out there to easily pop into our projects. So, we're scratching our own itch here and made it open-source in the process.\n    "
         )
       ])
     ])

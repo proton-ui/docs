@@ -5,7 +5,7 @@
         "breadTitle": "Home",
         "path": "/"
     },
-    "documentation": {
+    "/documentation": {
         "title": "Documentation",
         "subtitle": "Stay awhile and listen",
         "path": "/documentation",
@@ -16,23 +16,23 @@
             "documentation"
         ]
     },
-    "documentation/getting-started": {
+    "/documentation/getting-started": {
         "title": "Getting Started",
         "subtitle": "",
         "path": "/documentation/getting-started"
     },
-    "documentation/contributing": {
+    "/documentation/contributing": {
         "title": "Contributing",
         "subtitle": "",
         "path": "/documentation/contributing"
     },
-    "documentation/roadmap": {
+    "/documentation/roadmap": {
         "title": "Roadmap",
         "subtitle": "",
         "path": "/documentation/roadmap"
     },
 
-    "documentation/components/button": {
+    "/documentation/components/button": {
         "title": "Button",
         "subtitle": "Use buttons to perform actions in forms, dialogs, and more.",
         "path": "/documentation/components/button"

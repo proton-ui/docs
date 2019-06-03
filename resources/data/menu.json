@@ -3,16 +3,16 @@
         {
             "category": "Development",
             "pages": [
-                "documentation/getting-started",
-                "documentation/contributing",
-                "documentation/roadmap"
+                "/documentation/getting-started",
+                "/documentation/contributing",
+                "/documentation/roadmap"
             ]
         },
 
         {
             "category": "Components",
             "pages": [
-                "documentation/components/button"
+                "/documentation/components/button"
             ]
         }
     ]

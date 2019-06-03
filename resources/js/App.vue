@@ -7,7 +7,7 @@
                 <the-sidebar :data="menu"></the-sidebar>
                 
                 <div class="w-full lg:w-4/5">
-                    <the-header v-bind="meta"></the-header>
+                    <the-header :title="meta.title"></the-header>
 
                     <router-view></router-view>
                 </div>
@@ -36,21 +36,17 @@
             TheSidebar,
         },
 
+        watch: {
+            '$route' (to, from) {
+                this.setMeta(to.meta)
+            },
+        },
+
         methods: {
             setMeta(meta) {
                 this.meta = meta
                 this.menu = menuData[this.meta.menu || 'documentation']
             },
         },
-
-        mounted() {
-            this.setMeta(this.$router.currentRoute.meta)
-        }
     }
 </script>
-
-<style>
-    article > p {
-        line-height: 2;
-    }
-</style>

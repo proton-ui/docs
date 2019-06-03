@@ -14,21 +14,23 @@ function route(path, component) {
     }
 }
 
+const records = [
+    route('/', 'Home'),
+
+    route('/documentation', 'Documentation'),
+    route('/documentation/getting-started', 'GettingStarted'),
+    route('/documentation/contributing', 'Contributing'),
+    route('/documentation/roadmap', 'Roadmap'),
+
+    // Components
+    route('/documentation/components/button', 'Components/Button'),
+
+    { path: '*', redirect: '/' }
+]
+
 const router = new Router({
     base: __dirname,
-    routes: [
-        route('/', 'Home'),
-
-        route('/documentation', 'Documentation'),
-        route('/documentation/getting-started', 'GettingStarted'),
-        route('/documentation/contributing', 'Contributing'),
-        route('/documentation/roadmap', 'Roadmap'),
-
-        // Components
-        route('/documentation/components/button', 'Components/Button'),
-
-        { path: '*', redirect: '' }
-    ]
+    routes: records,
 })
 
 export default router
