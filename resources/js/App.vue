@@ -1,16 +1,18 @@
 <template>
-    <div class="h-full flex relative">
-        <div class="absolute bg-gray-100 hidden lg:block" style="right: 50%; bottom: 0; left: 0; top: 0;"></div>
+    <div class="flex flex-1 relative">
+        <div class="absolute bg-gray-100" style="right: 50%; bottom: 0; left: 0; top: 0;"></div>
         <the-navbar></the-navbar>
 
-        <main class="container w-full mx-auto h-full flex" style="padding-top: 60px;">
-            <div class="w-full flex flex-wrap flex-1">
+        <main class="container w-full mx-auto flex" style="padding-top: 60px;">
+            <div class="w-full flex flex-wrap">
                 <the-sidebar :data="menu"></the-sidebar>
                 
                 <div class="z-10 w-full lg:w-4/5 bg-white p-6 lg:border-l border-gray-300">
                     <the-header :title="meta.title"></the-header>
 
-                    <router-view></router-view>
+                    
+                    <router-view class="markdown"></router-view>
+                    
                 </div>
             </div>
         </main>

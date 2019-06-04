@@ -2,7 +2,9 @@
     <div class="code-reference">
         <div v-if="title" class="code-reference--title">{{ title }}</div>
 
-        <pre v-highlight><code :class="lang">{{ code }}</code></pre>
+        <figure class="highlight">
+            <pre v-highlight><code :class="lang">{{ code }}</code></pre>
+        </figure>
     </div>
 </template>
 

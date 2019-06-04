@@ -6,7 +6,7 @@
         <h2>Item Structure</h2>
         <p>When passing items to the treeview component, an array of objects is expected. There are two properties that will be taken into consideration: name and children. These can be nested indefinitely.</p>
 
-        <code-reference lang="json" :code="ItemStructure"></code-reference>
+        <code-reference lang="json" :code="ItemStructure | pre"></code-reference>
 
         <api-reference :data="[{
             props: [
@@ -42,14 +42,21 @@
 <script>
     import Simple from '../../examples/Treeview/Simple'
     import SimpleCode from '!!raw-loader!../../examples/Treeview/Simple'
-    import ItemStructure from '../../examples/Treeview/ItemStructure.json'
 
     export default {
         data() {
             return {
                 Simple,
                 SimpleCode,
-                ItemStructure,
+                ItemStructure: `
+                [{
+                    name: 'Documents',
+                    isFolder: true,
+                    children: [
+                        { name: 'Hello.txt', file: true },
+                        { name: 'Universe.txt', file: true },
+                    ],
+                }]`,
             }
         }
     }

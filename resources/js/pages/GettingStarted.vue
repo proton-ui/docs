@@ -7,7 +7,6 @@
         <h2>1. npm or Yarn</h2>
         <p>Install with either npm or Yarn. Use whichever you prefer in your project.</p>
 
-        <code-reference lang="bash">yarn add @efelle/proton</code-reference>
-
+        <code-reference lang="bash" code="yarn add @efelle/proton"></code-reference>
     </article>
 </template>
