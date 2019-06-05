@@ -26,6 +26,14 @@
                     values: 'default, primary, secondary, info, success, warning, danger, dark',
                     default: 'default',
                 },
+
+                {
+                    name: '<code>disabled</code>',
+                    type: '<code>Boolean</code>',
+                    description: 'If the button should be disabled or not.',
+                    values: 'true, false',
+                    default: 'false',
+                }
             ],
 
             slots: [
@@ -35,7 +43,6 @@
                 }
             ]
         }]">
-
         </api-reference>
     </article>
 </template>

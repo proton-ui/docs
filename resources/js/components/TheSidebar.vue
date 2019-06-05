@@ -1,5 +1,5 @@
 <template>
-    <aside class="w-full lg:w-1/5 hidden lg:block text-sm py-6 pl-6 z-10">
+    <aside class="sidebar">
         <template v-for="(items, index) in data">
             <p :key="items.category" class="font-semibold uppercase text-gray-500 tracking-wider leading-loose pb-1">
                 {{ items.category }}

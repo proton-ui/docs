@@ -1,0 +1,58 @@
+.documentation {
+    > *:first-child {
+        @apply mt-0;
+    }
+
+    > * + * {
+        @apply mt-6;
+    }
+
+    > ul:not(.list-none) {
+        @apply pl-0 list-none;
+    
+        li {
+            @apply relative pl-5;
+            
+            &::before {
+                @apply absolute left-0 text-gray-400 inline-block mr-3;
+                content: "\2022";
+            }
+        }
+    }
+
+    > ol {
+        @apply list-none;
+        
+        counter-reset: item;
+    
+        > li {
+            @apply relative pl-10;
+        }
+
+        > li::before {
+            @apply absolute top-0 left-0 mt-px;
+            @apply flex items-center justify-center;
+            @apply h-6 w-6 bg-gray-300 rounded-full;
+            @apply text-gray-700 text-xs font-bold;
+            content: counter(item);
+            counter-increment: item;
+        }
+    }
+
+    > :not(pre):not(h1):not(h2):not(h3):not(h4) > code,
+    > ul code,
+    > ol code {
+        @apply bg-gray-100;
+        @apply text-sm;
+        @apply leading-normal;
+    }
+
+    > pre, > ul li pre, > ol li pre {
+        @apply flex p-0 bg-gray-800;
+        @apply text-sm leading-normal;
+    }
+
+    > pre code, > ul li pre code, > ol li pre code {
+        @apply p-4;
+    }
+}

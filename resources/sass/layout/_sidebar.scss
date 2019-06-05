@@ -1,0 +1,32 @@
+.sidebar {
+    @apply w-full hidden text-sm py-6 pl-6 z-10;
+
+    @screen lg {
+        @apply w-1/5 block;
+    }
+
+    ul > * + *,
+    ol > * + * {
+        @apply mt-0;
+    }
+
+    &__item {
+        @apply pl-2 py-1 border-t border-l border-b border-transparent rounded rounded-r-none;
+
+        a {
+            @apply no-underline text-gray-600;
+
+            &:hover {
+                @apply text-gray-900;
+            }
+        }
+
+        &.router-link-active {
+            @apply bg-white border-gray-200;
+
+            a {
+                @apply text-gray-900;
+            }
+        }
+    }
+}

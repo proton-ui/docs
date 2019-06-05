@@ -1,10 +1,8 @@
 .treeview {
+    @apply m-0;
+
     &--node {
         @apply .flex .items-center .align-middle .py-2;
-
-        :hover {
-            @apply .cursor-pointer;
-        }
     }
 
     &--toggle {
@@ -17,6 +15,10 @@
 
     &--label {
         @apply .flex .items-center .leading-tight .align-middle;
+
+        &:hover {
+            @apply .cursor-pointer;
+        }
     }
 
     &--node__folder {

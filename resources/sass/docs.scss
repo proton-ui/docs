@@ -4,21 +4,17 @@
 
 @import "./elements/typography";
 
+@import "./layout/sidebar";
+
 @import "./components/button";
 @import "./components/card";
 @import "./components/tab";
 @import "./components/table";
 @import "./components/treeview";
 
+@import "./pages/documentation";
+
 @import "./vendor/highlight";
-
-.sidebar__item {
-    @apply pl-2 py-1 border-t border-l border-b border-transparent rounded rounded-r-none;
-
-    &.router-link-exact-active {
-        @apply bg-white border-gray-200;
-    }
-}
 
 .proton-example, .code-reference {
     @apply border-4 border-gray-200 rounded my-6;

@@ -44,6 +44,12 @@
         "path": "/documentation/components/card"
     },
 
+    "/documentation/components/chart": {
+        "title": "Chart",
+        "subtitle": "",
+        "path": "/documentation/components/chart"
+    },
+
     "/documentation/components/treeview": {
         "title": "Treeview",
         "subtitle": "Use treeviews to display large amounts of nested data.",

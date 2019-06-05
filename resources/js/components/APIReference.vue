@@ -2,7 +2,7 @@
     <section class="api__reference">
         <h2>API</h2>
 
-        <div v-for="(component, index) in data" :key="component.title || index">
+        <div class="card" v-for="(component, index) in data" :key="component.title || index">
             <h3 v-if="component.title">{{ component.title }}</h3>
 
             <p-tabs>

@@ -34,7 +34,6 @@
                 }
             ]
         }]">
-
         </api-reference>
     </article>
 </template>

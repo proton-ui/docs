@@ -18,8 +18,6 @@ var render = function() {
   return _c(
     "article",
     [
-      _c("h1", [_vm._v("Getting Started")]),
-      _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
       _c("h2", [_vm._v("1. npm or Yarn")]),

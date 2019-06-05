@@ -22,7 +22,295 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("article", [_c("p", [_vm._v("\n        Roadmap\n    ")])])
+    return _c("article", [
+      _c("p", [
+        _vm._v(
+          "Proton is in active development and has not reached a stable release just yet. Below you will find the planned components to be covered by the initial v1.0 release."
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "flex flex-wrap bg-blue-500 rounded-lg py-6 px-3" },
+        [
+          _c("div", { staticClass: "w-full lg:w-1/3 mb-6 lg:mb-0 flex" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "rounded border border-gray-100 shadow p-3 ml-3 mr-3 flex-1 bg-gray-300"
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "font-bold text-sm uppercase mb-6 block text-gray-900"
+                  },
+                  [_vm._v("To-Do")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Banner")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Repeater")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Tag")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("WYSIWYG")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full lg:w-1/3 mb-6 lg:mb-0 flex" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "rounded border border-gray-100 shadow p-3 ml-3 mr-3 flex-1 bg-gray-300"
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "font-bold text-sm uppercase mb-6 block text-gray-900"
+                  },
+                  [_vm._v("In Progress")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("New Documentation")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full lg:w-1/3 flex" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "rounded border border-gray-100 shadow p-3 ml-3 mr-3 flex-1 bg-gray-300"
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "font-bold text-sm uppercase mb-6 block text-gray-900"
+                  },
+                  [_vm._v("Completed")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Button")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Card")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Charts")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Checkbox")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Collapse")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("DataTable")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Dropdown")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Input")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Modal")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Pagination")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Radio")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Select")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Sortable")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Tabs")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Textarea")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Toast")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Toggle")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Tooltip")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded bg-white hover:bg-gray-100 block px-3 py-1 mb-3"
+                  },
+                  [_vm._v("Treeview")]
+                )
+              ]
+            )
+          ])
+        ]
+      )
+    ])
   }
 ]
 render._withStripped = true

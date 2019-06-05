@@ -1,6 +1,10 @@
 .card {
     @apply .rounded .shadow .bg-white .relative;
 
+    h1, h2, h3, h4, h5, h6 {
+        @apply mt-0 mb-3;
+    }
+
     &__body {
         @apply .p-6;
     }
@@ -16,7 +20,7 @@
     &--dark {
         @apply .rounded .shadow .bg-black .text-white;
 
-        > p {
+        p, h1, h2, h3, h4, h5, h6 {
             @apply .text-white;
         }
     }

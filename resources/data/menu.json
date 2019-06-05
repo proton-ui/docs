@@ -14,6 +14,7 @@
             "pages": [
                 "/documentation/components/button",
                 "/documentation/components/card",
+                "/documentation/components/chart",
                 "/documentation/components/treeview"
             ]
         }
