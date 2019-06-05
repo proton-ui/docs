@@ -50,6 +50,12 @@
         "path": "/documentation/components/chart"
     },
 
+    "/documentation/components/collapse": {
+        "title": "Collapse",
+        "subtitle": "Toggle the visibility of any element within your application.",
+        "path": "/documentation/components/collapse"
+    },
+
     "/documentation/components/treeview": {
         "title": "Treeview",
         "subtitle": "Use treeviews to display large amounts of nested data.",
