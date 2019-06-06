@@ -1,17 +1,24 @@
 <template>
-    <p-treeview :items="files"></p-treeview>
+    <section>
+        <p-treeview :items="files" v-model="selected" class="mb-10"></p-treeview>
+
+        <p class="mb-2"><strong>Selected:</strong></p>
+        <p><code>{{ selected }}</code></p>
+    </section>
 </template>
 
 <script>
     export default {
         data() {
             return {
+                selected: {},
                 files: [{
+                    id: 1,
                     name: 'Documents',
                     isFolder: true,
                     children: [
-                        { name: 'Hello.txt', file: true },
-                        { name: 'Universe.txt', file: true },
+                        { id: 2, name: 'Hello.txt', file: true },
+                        { id: 3, name: 'Universe.txt', file: true },
                     ],
                 }],
             }

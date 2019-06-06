@@ -8,30 +8,32 @@
 
         <code-reference lang="json" :code="ItemStructure | pre"></code-reference>
 
+        <p>You may optionally pass any additional data along with your items. The additional data may be used within the provided scoped slots when customizing the look and feel of your treeview.</p>
+
+        <h2>Advanced Treeview</h2>
+        <p>When combined with additional data, you can easily customize the presentation of your items. The following example shows the use of the <code>prepend</code> scoped slot to display a custom icon per item.</p>
+
+        <example :component="Advanced" :code="AdvancedCode"></example>
+
         <api-reference :data="[{
-            props: [
-                {
-                    name: '<code>theme</code>',
-                    description: 'Define the theme of the card.',
-                    type: '<code>String</code>',
-                    values: 'default, dark',
-                    default: 'default',
-                },
-
-                {
-                    name: '<code>no-body</code>',
-                    type: '<code>Boolean</code>',
-                    description: 'Disable padding inside card body.',
-                    values: 'true, false',
-                    default: 'false',
-                },
-            ],
-
             slots: [
                 {
-                    name: '<code>default</code>',
-                    description: 'Main body of the card.',
-                }
+                    name: '<code>label</code>',
+                    description: 'Label of each item.',
+                    scope: 'item, open',
+                },
+
+                {
+                    name: '<code>prepend</code>',
+                    description: 'Content prepending each label.',
+                    scope: 'item, open',
+                },
+
+                {
+                    name: '<code>append</code>',
+                    description: 'Content appending each label.',
+                    scope: 'item, open',
+                },
             ]
         }]">
 
@@ -42,12 +44,16 @@
 <script>
     import Simple from '../../examples/Treeview/Simple'
     import SimpleCode from '!!raw-loader!../../examples/Treeview/Simple'
+    import Advanced from '../../examples/Treeview/Advanced'
+    import AdvancedCode from '!!raw-loader!../../examples/Treeview/Advanced'
 
     export default {
         data() {
             return {
                 Simple,
                 SimpleCode,
+                Advanced,
+                AdvancedCode,
                 ItemStructure: `
                 [{
                     name: 'Documents',

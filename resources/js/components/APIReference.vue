@@ -36,6 +36,7 @@
                             <tr>
                                 <th>Name</th>
                                 <th>Description</th>
+                                <th>Scope</th>
                             </tr>
                         </thead>
 
@@ -43,6 +44,7 @@
                             <tr v-for="slot in component.slots" :key="slot.name">
                                 <td v-html="slot.name"></td>
                                 <td>{{ slot.description }}</td>
+                                <td>{{ slot.scope }}</td>
                             </tr>
                         </tbody>
                     </table>
