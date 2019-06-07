@@ -58387,7 +58387,7 @@ var staticRenderFns = [
       "div",
       {
         staticClass:
-          "bg-purple-300 fixed w-full z-10 border-b border-purple-200",
+          "bg-purple-300 fixed w-full z-30 border-b border-purple-200",
         staticStyle: { top: "61px" }
       },
       [

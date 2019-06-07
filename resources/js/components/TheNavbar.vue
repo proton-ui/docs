@@ -63,7 +63,7 @@
             </p-collapse>
         </div>
 
-        <div class="bg-purple-300 fixed w-full z-10 border-b border-purple-200" style="top: 61px;">
+        <div class="bg-purple-300 fixed w-full z-30 border-b border-purple-200" style="top: 61px;">
             <div class="w-full container mx-auto flex flex-wrap justify-center items-center mt-0 py-3 px-6 text-xs text-purple-900">
                 <i class="fas fa-fw fa-construction fa-lg text-purple-600 mr-3"></i> New documentation is in the works <i class="fas fa-fw fa-construction fa-lg text-purple-600 ml-3"></i>
             </div>
