@@ -17,6 +17,7 @@
                 "/documentation/components/chart",
                 "/documentation/components/checkbox",
                 "/documentation/components/collapse",
+                "/documentation/components/dropdown",
                 "/documentation/components/treeview"
             ]
         }

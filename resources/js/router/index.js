@@ -28,6 +28,7 @@ const records = [
     route('/documentation/components/chart', 'Components/Chart'),
     route('/documentation/components/checkbox', 'Components/Checkbox'),
     route('/documentation/components/collapse', 'Components/Collapse'),
+    route('/documentation/components/dropdown', 'Components/Dropdown'),
     route('/documentation/components/treeview', 'Components/Treeview'),
 
     { path: '*', redirect: '/' }

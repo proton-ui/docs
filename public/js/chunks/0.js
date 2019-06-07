@@ -1,20 +1,114 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Button.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Components/Button.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Grouped.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/Grouped.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _examples_Button_Simple__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../examples/Button/Simple */ "./resources/js/examples/Button/Simple.vue");
-/* harmony import */ var _raw_loader_examples_Button_Simple__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !raw-loader!../../examples/Button/Simple */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/Simple.vue");
-/* harmony import */ var _examples_Button_LargeSize__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../examples/Button/LargeSize */ "./resources/js/examples/Button/LargeSize.vue");
-/* harmony import */ var _raw_loader_examples_Button_LargeSize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !raw-loader!../../examples/Button/LargeSize */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/LargeSize.vue");
-/* harmony import */ var _examples_Button_SmallSize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../examples/Button/SmallSize */ "./resources/js/examples/Button/SmallSize.vue");
-/* harmony import */ var _raw_loader_examples_Button_SmallSize__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !raw-loader!../../examples/Button/SmallSize */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/SmallSize.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      colors: []
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Inline.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/Inline.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      colors: []
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/vModel.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/vModel.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      newsletter: false
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Checkbox.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Components/Checkbox.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _examples_Checkbox_Simple__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../examples/Checkbox/Simple */ "./resources/js/examples/Checkbox/Simple.vue");
+/* harmony import */ var _raw_loader_examples_Checkbox_Simple__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !raw-loader!../../examples/Checkbox/Simple */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Simple.vue");
+/* harmony import */ var _examples_Checkbox_vModel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../examples/Checkbox/vModel */ "./resources/js/examples/Checkbox/vModel.vue");
+/* harmony import */ var _raw_loader_examples_Checkbox_vModel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !raw-loader!../../examples/Checkbox/vModel */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/vModel.vue");
+/* harmony import */ var _examples_Checkbox_Grouped__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../examples/Checkbox/Grouped */ "./resources/js/examples/Checkbox/Grouped.vue");
+/* harmony import */ var _raw_loader_examples_Checkbox_Grouped__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !raw-loader!../../examples/Checkbox/Grouped */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Grouped.vue");
+/* harmony import */ var _examples_Checkbox_Inline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../examples/Checkbox/Inline */ "./resources/js/examples/Checkbox/Inline.vue");
+/* harmony import */ var _raw_loader_examples_Checkbox_Inline__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! !raw-loader!../../examples/Checkbox/Inline */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Inline.vue");
 //
 //
 //
@@ -64,6 +158,66 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 
 
 
@@ -73,60 +227,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      Simple: _examples_Button_Simple__WEBPACK_IMPORTED_MODULE_0__["default"],
-      SimpleCode: _raw_loader_examples_Button_Simple__WEBPACK_IMPORTED_MODULE_1__["default"],
-      LargeSize: _examples_Button_LargeSize__WEBPACK_IMPORTED_MODULE_2__["default"],
-      LargeSizeCode: _raw_loader_examples_Button_LargeSize__WEBPACK_IMPORTED_MODULE_3__["default"],
-      SmallSize: _examples_Button_SmallSize__WEBPACK_IMPORTED_MODULE_4__["default"],
-      SmallSizeCode: _raw_loader_examples_Button_SmallSize__WEBPACK_IMPORTED_MODULE_5__["default"]
+      Simple: _examples_Checkbox_Simple__WEBPACK_IMPORTED_MODULE_0__["default"],
+      SimpleCode: _raw_loader_examples_Checkbox_Simple__WEBPACK_IMPORTED_MODULE_1__["default"],
+      vModel: _examples_Checkbox_vModel__WEBPACK_IMPORTED_MODULE_2__["default"],
+      vModelCode: _raw_loader_examples_Checkbox_vModel__WEBPACK_IMPORTED_MODULE_3__["default"],
+      Grouped: _examples_Checkbox_Grouped__WEBPACK_IMPORTED_MODULE_4__["default"],
+      GroupedCode: _raw_loader_examples_Checkbox_Grouped__WEBPACK_IMPORTED_MODULE_5__["default"],
+      Inline: _examples_Checkbox_Inline__WEBPACK_IMPORTED_MODULE_6__["default"],
+      InlineCode: _raw_loader_examples_Checkbox_Inline__WEBPACK_IMPORTED_MODULE_7__["default"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/LargeSize.vue":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Grouped.vue":
 /*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/LargeSize.vue ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Grouped.vue ***!
   \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-button size=\"large\">Large Button</p-button>\n        <p-button size=\"large\" theme=\"secondary\">Large Button</p-button>\n    </section>\n</template>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-checkbox-group label=\"Select your colors\" help=\"Choose one or more options for your item.\" class=\"mb-10\">\n            <p-checkbox name=\"colors\" id=\"red\" native-value=\"red\" v-model=\"colors\">Red</p-checkbox>\n            <p-checkbox name=\"colors\" id=\"green\" native-value=\"green\" v-model=\"colors\">Green</p-checkbox>\n            <p-checkbox name=\"colors\" id=\"blue\" native-value=\"blue\" v-model=\"colors\">Blue</p-checkbox>\n        </p-checkbox-group>\n\n        <p class=\"mb-2\"><strong>Checked:</strong></p>\n        <p><code>{{ colors }}</code></p>\n    </section>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                colors: [],\n            }\n        }\n    }\n</script>\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/Simple.vue":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/Simple.vue ***!
-  \***************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Inline.vue":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Inline.vue ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-button>Default</p-button>\n        <p-button theme=\"primary\">Primary</p-button>\n        <p-button theme=\"secondary\">Secondary</p-button>\n        <p-button theme=\"success\">Success</p-button>\n        <p-button theme=\"danger\">Danger</p-button>\n        <p-button theme=\"warning\">Warning</p-button>\n        <p-button theme=\"info\">Info</p-button>\n    </section>\n</template>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-checkbox-group inline label=\"Select your colors\" help=\"Choose one or more options for your item.\" class=\"mb-10\">\n            <p-checkbox name=\"colors\" id=\"red\" native-value=\"red\" v-model=\"colors\">Red</p-checkbox>\n            <p-checkbox name=\"colors\" id=\"green\" native-value=\"green\" v-model=\"colors\">Green</p-checkbox>\n            <p-checkbox name=\"colors\" id=\"blue\" native-value=\"blue\" v-model=\"colors\">Blue</p-checkbox>\n        </p-checkbox-group>\n\n        <p class=\"mb-2\"><strong>Checked:</strong></p>\n        <p><code>{{ colors }}</code></p>\n    </section>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                colors: [],\n            }\n        }\n    }\n</script>\n\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/SmallSize.vue":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Button/SmallSize.vue ***!
-  \******************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Simple.vue":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/Simple.vue ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-button size=\"small\">Small Button</p-button>\n        <p-button size=\"small\" theme=\"secondary\">Small Button</p-button>\n    </section>\n</template>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-checkbox name=\"option\" id=\"option_a\" native-value=\"option_a\">Option A</p-checkbox>\n        <p-checkbox name=\"option\" id=\"option_b\" native-value=\"option_b\">Option B</p-checkbox>\n        <p-checkbox name=\"option\" id=\"option_c\" native-value=\"option_c\">Option C</p-checkbox>\n    </section>\n</template>\n");
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Button/LargeSize.vue?vue&type=template&id=02eb1d37&":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/vModel.vue":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Checkbox/vModel.vue ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <p-checkbox name=\"newsletter\" id=\"newsletter\" v-model=\"newsletter\" class=\"mb-10\">Sign up for newsletter</p-checkbox>\n\n        <p class=\"mb-2\"><strong>Checked:</strong></p>\n        <p><code>{{ newsletter }}</code></p>\n    </section>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                newsletter: false,\n            }\n        }\n    }\n</script>\n");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Grouped.vue?vue&type=template&id=3380a98a&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Button/LargeSize.vue?vue&type=template&id=02eb1d37& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/Grouped.vue?vue&type=template&id=3380a98a& ***!
   \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -142,26 +311,91 @@ var render = function() {
   return _c(
     "section",
     [
-      _c("p-button", { attrs: { size: "large" } }, [_vm._v("Large Button")]),
+      _c(
+        "p-checkbox-group",
+        {
+          staticClass: "mb-10",
+          attrs: {
+            label: "Select your colors",
+            help: "Choose one or more options for your item."
+          }
+        },
+        [
+          _c(
+            "p-checkbox",
+            {
+              attrs: { name: "colors", id: "red", "native-value": "red" },
+              model: {
+                value: _vm.colors,
+                callback: function($$v) {
+                  _vm.colors = $$v
+                },
+                expression: "colors"
+              }
+            },
+            [_vm._v("Red")]
+          ),
+          _vm._v(" "),
+          _c(
+            "p-checkbox",
+            {
+              attrs: { name: "colors", id: "green", "native-value": "green" },
+              model: {
+                value: _vm.colors,
+                callback: function($$v) {
+                  _vm.colors = $$v
+                },
+                expression: "colors"
+              }
+            },
+            [_vm._v("Green")]
+          ),
+          _vm._v(" "),
+          _c(
+            "p-checkbox",
+            {
+              attrs: { name: "colors", id: "blue", "native-value": "blue" },
+              model: {
+                value: _vm.colors,
+                callback: function($$v) {
+                  _vm.colors = $$v
+                },
+                expression: "colors"
+              }
+            },
+            [_vm._v("Blue")]
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
-      _c("p-button", { attrs: { size: "large", theme: "secondary" } }, [
-        _vm._v("Large Button")
-      ])
+      _vm._m(0),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v(_vm._s(_vm.colors))])])
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mb-2" }, [
+      _c("strong", [_vm._v("Checked:")])
+    ])
+  }
+]
 render._withStripped = true
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Button/Simple.vue?vue&type=template&id=15062b67&":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Button/Simple.vue?vue&type=template&id=15062b67& ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Inline.vue?vue&type=template&id=6b1670c6&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/Inline.vue?vue&type=template&id=6b1670c6& ***!
+  \****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -176,19 +410,129 @@ var render = function() {
   return _c(
     "section",
     [
-      _c("p-button", [_vm._v("Default")]),
+      _c(
+        "p-checkbox-group",
+        {
+          staticClass: "mb-10",
+          attrs: {
+            inline: "",
+            label: "Select your colors",
+            help: "Choose one or more options for your item."
+          }
+        },
+        [
+          _c(
+            "p-checkbox",
+            {
+              attrs: { name: "colors", id: "red", "native-value": "red" },
+              model: {
+                value: _vm.colors,
+                callback: function($$v) {
+                  _vm.colors = $$v
+                },
+                expression: "colors"
+              }
+            },
+            [_vm._v("Red")]
+          ),
+          _vm._v(" "),
+          _c(
+            "p-checkbox",
+            {
+              attrs: { name: "colors", id: "green", "native-value": "green" },
+              model: {
+                value: _vm.colors,
+                callback: function($$v) {
+                  _vm.colors = $$v
+                },
+                expression: "colors"
+              }
+            },
+            [_vm._v("Green")]
+          ),
+          _vm._v(" "),
+          _c(
+            "p-checkbox",
+            {
+              attrs: { name: "colors", id: "blue", "native-value": "blue" },
+              model: {
+                value: _vm.colors,
+                callback: function($$v) {
+                  _vm.colors = $$v
+                },
+                expression: "colors"
+              }
+            },
+            [_vm._v("Blue")]
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
-      _c("p-button", { attrs: { theme: "primary" } }, [_vm._v("Primary")]),
+      _vm._m(0),
       _vm._v(" "),
-      _c("p-button", { attrs: { theme: "secondary" } }, [_vm._v("Secondary")]),
+      _c("p", [_c("code", [_vm._v(_vm._s(_vm.colors))])])
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mb-2" }, [
+      _c("strong", [_vm._v("Checked:")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Simple.vue?vue&type=template&id=46c02236&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/Simple.vue?vue&type=template&id=46c02236& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "section",
+    [
+      _c(
+        "p-checkbox",
+        {
+          attrs: { name: "option", id: "option_a", "native-value": "option_a" }
+        },
+        [_vm._v("Option A")]
+      ),
       _vm._v(" "),
-      _c("p-button", { attrs: { theme: "success" } }, [_vm._v("Success")]),
+      _c(
+        "p-checkbox",
+        {
+          attrs: { name: "option", id: "option_b", "native-value": "option_b" }
+        },
+        [_vm._v("Option B")]
+      ),
       _vm._v(" "),
-      _c("p-button", { attrs: { theme: "danger" } }, [_vm._v("Danger")]),
-      _vm._v(" "),
-      _c("p-button", { attrs: { theme: "warning" } }, [_vm._v("Warning")]),
-      _vm._v(" "),
-      _c("p-button", { attrs: { theme: "info" } }, [_vm._v("Info")])
+      _c(
+        "p-checkbox",
+        {
+          attrs: { name: "option", id: "option_c", "native-value": "option_c" }
+        },
+        [_vm._v("Option C")]
+      )
     ],
     1
   )
@@ -200,44 +544,67 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Button/SmallSize.vue?vue&type=template&id=561b29fa&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/vModel.vue?vue&type=template&id=82927f92&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Checkbox/vModel.vue?vue&type=template&id=82927f92& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "section",
+    [
+      _c(
+        "p-checkbox",
+        {
+          staticClass: "mb-10",
+          attrs: { name: "newsletter", id: "newsletter" },
+          model: {
+            value: _vm.newsletter,
+            callback: function($$v) {
+              _vm.newsletter = $$v
+            },
+            expression: "newsletter"
+          }
+        },
+        [_vm._v("Sign up for newsletter")]
+      ),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v(_vm._s(_vm.newsletter))])])
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mb-2" }, [
+      _c("strong", [_vm._v("Checked:")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Checkbox.vue?vue&type=template&id=23d462c3&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Button/SmallSize.vue?vue&type=template&id=561b29fa& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Components/Checkbox.vue?vue&type=template&id=23d462c3& ***!
   \*****************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    [
-      _c("p-button", { attrs: { size: "small" } }, [_vm._v("Small Button")]),
-      _vm._v(" "),
-      _c("p-button", { attrs: { size: "small", theme: "secondary" } }, [
-        _vm._v("Small Button")
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Button.vue?vue&type=template&id=45870e9c&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Components/Button.vue?vue&type=template&id=45870e9c& ***!
-  \***************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -254,55 +621,127 @@ var render = function() {
     [
       _c("h2", [_vm._v("Example")]),
       _vm._v(" "),
-      _c("example", { attrs: { component: _vm.Simple, code: _vm.SimpleCode } }),
-      _vm._v(" "),
-      _c("h2", [_vm._v("Size")]),
-      _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _c("example", {
-        attrs: { component: _vm.LargeSize, code: _vm.LargeSizeCode }
-      }),
+      _c("example", { attrs: { component: _vm.Simple, code: _vm.SimpleCode } }),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Checked State")]),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("callout", { attrs: { tip: "" } }, [
+        _vm._v("\n        In this instance, the "),
+        _c("code", [_vm._v("value")]),
+        _vm._v(" prop does not translate to a "),
+        _c("code", [_vm._v("v-model")]),
+        _vm._v(" binding. The "),
+        _c("code", [_vm._v("v-model")]),
+        _vm._v(" instance is instead tied to a computed "),
+        _c("code", [_vm._v("computedValue")]),
+        _vm._v(" property to free up the use of the "),
+        _c("code", [_vm._v("value")]),
+        _vm._v(" prop for the true value of the checkbox element.\n    ")
+      ]),
+      _vm._v(" "),
+      _c("example", { attrs: { component: _vm.vModel, code: _vm.vModelCode } }),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Grouping")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "In most cases, checkboxes will be grouped together. You may wrap a set of checkbox components within a checkbox group, allowing you to define a label, help text, and error messaging."
+        )
+      ]),
       _vm._v(" "),
       _c("example", {
-        attrs: { component: _vm.SmallSize, code: _vm.SmallSizeCode }
+        attrs: { component: _vm.Grouped, code: _vm.GroupedCode }
       }),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Inline Checkboxes")]),
+      _vm._v(" "),
+      _vm._m(2),
+      _vm._v(" "),
+      _c("example", { attrs: { component: _vm.Inline, code: _vm.InlineCode } }),
       _vm._v(" "),
       _c("api-reference", {
         attrs: {
           data: [
             {
+              title: "Checkbox",
               props: [
                 {
-                  name: "<code>size</code>",
-                  description: "Define the size of the button.",
-                  type: "<code>String</code>",
-                  values: "normal, small, large",
-                  default: "normal"
+                  name: "<code>v-model</code>",
+                  description: "The value to be bound by the checkbox(es)",
+                  type: "<code>Binding</code>"
                 },
 
                 {
-                  name: "<code>theme</code>",
-                  type: "<code>String</code>",
-                  description: "Define the theme of the button.",
-                  values:
-                    "default, primary, secondary, info, success, warning, danger, dark",
-                  default: "default"
+                  name: "<code>id</code>",
+                  description: "The unique ID of the checkbox.",
+                  type: "<code>String</code>"
+                },
+
+                {
+                  name: "<code>name</code>",
+                  description: "The name of the checkbox.",
+                  type: "<code>String</code>"
+                },
+
+                {
+                  name: "<code>native-value</code>",
+                  description: "The native value associated with the checkbox.",
+                  type: "<code>String</code>"
+                },
+
+                {
+                  name: "<code>readonly</code>",
+                  description: "If the checkbox should be read-only or not.",
+                  type: "<code>Boolean</code>",
+                  values: "true, false",
+                  default: "false"
                 },
 
                 {
                   name: "<code>disabled</code>",
+                  description: "If the checkbox should be disabled or not.",
                   type: "<code>Boolean</code>",
-                  description: "If the button should be disabled or not.",
                   values: "true, false",
                   default: "false"
                 }
-              ],
+              ]
+            },
 
-              slots: [
+            {
+              title: "Checkbox Group",
+              props: [
                 {
-                  name: "<code>default</code>",
-                  description: "Main text of the button."
+                  name: "<code>help</code>",
+                  description:
+                    "Help text to be displayed below the checkbox items.",
+                  type: "<code>String</code>"
+                },
+
+                {
+                  name: "<code>required</code>",
+                  description: "If the checkbox group is required or not.",
+                  type: "<code>Boolean</code>",
+                  values: "true, false",
+                  default: "false"
+                },
+
+                {
+                  name: "<code>has-error</code>",
+                  description: "If the checkbox has errors or not.",
+                  type: "<code>Boolean</code>",
+                  values: "true, false",
+                  default: "false"
+                },
+
+                {
+                  name: "<code>error-message</code>",
+                  description:
+                    "The message to be displayed when the checkbox group has an error.",
+                  type: "<code>String</code>"
                 }
               ]
             }
@@ -319,9 +758,35 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("p", [
-      _vm._v("Define the size of the button with the "),
-      _c("code", [_vm._v("size")]),
+      _vm._v("To create a basic checkbox component, you must specify the "),
+      _c("code", [_vm._v("name")]),
+      _vm._v(", "),
+      _c("code", [_vm._v("id")]),
+      _vm._v(", and "),
+      _c("code", [_vm._v("value")]),
+      _vm._v(" properties.")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("To bind the checked state, you may supply a "),
+      _c("code", [_vm._v("v-model")]),
       _vm._v(" property.")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v(
+        "You may make your checkbox group become inline by specifying the "
+      ),
+      _c("code", [_vm._v("inline")]),
+      _vm._v(" prop.")
     ])
   }
 ]
@@ -331,176 +796,17 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/examples/Button/LargeSize.vue":
+/***/ "./resources/js/examples/Checkbox/Grouped.vue":
 /*!****************************************************!*\
-  !*** ./resources/js/examples/Button/LargeSize.vue ***!
+  !*** ./resources/js/examples/Checkbox/Grouped.vue ***!
   \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _LargeSize_vue_vue_type_template_id_02eb1d37___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LargeSize.vue?vue&type=template&id=02eb1d37& */ "./resources/js/examples/Button/LargeSize.vue?vue&type=template&id=02eb1d37&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _LargeSize_vue_vue_type_template_id_02eb1d37___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _LargeSize_vue_vue_type_template_id_02eb1d37___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/examples/Button/LargeSize.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/examples/Button/LargeSize.vue?vue&type=template&id=02eb1d37&":
-/*!***********************************************************************************!*\
-  !*** ./resources/js/examples/Button/LargeSize.vue?vue&type=template&id=02eb1d37& ***!
-  \***********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LargeSize_vue_vue_type_template_id_02eb1d37___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./LargeSize.vue?vue&type=template&id=02eb1d37& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Button/LargeSize.vue?vue&type=template&id=02eb1d37&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LargeSize_vue_vue_type_template_id_02eb1d37___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LargeSize_vue_vue_type_template_id_02eb1d37___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/examples/Button/Simple.vue":
-/*!*************************************************!*\
-  !*** ./resources/js/examples/Button/Simple.vue ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Simple_vue_vue_type_template_id_15062b67___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Simple.vue?vue&type=template&id=15062b67& */ "./resources/js/examples/Button/Simple.vue?vue&type=template&id=15062b67&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _Simple_vue_vue_type_template_id_15062b67___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Simple_vue_vue_type_template_id_15062b67___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/examples/Button/Simple.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/examples/Button/Simple.vue?vue&type=template&id=15062b67&":
-/*!********************************************************************************!*\
-  !*** ./resources/js/examples/Button/Simple.vue?vue&type=template&id=15062b67& ***!
-  \********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Simple_vue_vue_type_template_id_15062b67___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Simple.vue?vue&type=template&id=15062b67& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Button/Simple.vue?vue&type=template&id=15062b67&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Simple_vue_vue_type_template_id_15062b67___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Simple_vue_vue_type_template_id_15062b67___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/examples/Button/SmallSize.vue":
-/*!****************************************************!*\
-  !*** ./resources/js/examples/Button/SmallSize.vue ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _SmallSize_vue_vue_type_template_id_561b29fa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SmallSize.vue?vue&type=template&id=561b29fa& */ "./resources/js/examples/Button/SmallSize.vue?vue&type=template&id=561b29fa&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _SmallSize_vue_vue_type_template_id_561b29fa___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _SmallSize_vue_vue_type_template_id_561b29fa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/examples/Button/SmallSize.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/examples/Button/SmallSize.vue?vue&type=template&id=561b29fa&":
-/*!***********************************************************************************!*\
-  !*** ./resources/js/examples/Button/SmallSize.vue?vue&type=template&id=561b29fa& ***!
-  \***********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SmallSize_vue_vue_type_template_id_561b29fa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SmallSize.vue?vue&type=template&id=561b29fa& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Button/SmallSize.vue?vue&type=template&id=561b29fa&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SmallSize_vue_vue_type_template_id_561b29fa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SmallSize_vue_vue_type_template_id_561b29fa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/pages/Components/Button.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/pages/Components/Button.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Button_vue_vue_type_template_id_45870e9c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button.vue?vue&type=template&id=45870e9c& */ "./resources/js/pages/Components/Button.vue?vue&type=template&id=45870e9c&");
-/* harmony import */ var _Button_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Button.vue?vue&type=script&lang=js& */ "./resources/js/pages/Components/Button.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Grouped_vue_vue_type_template_id_3380a98a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Grouped.vue?vue&type=template&id=3380a98a& */ "./resources/js/examples/Checkbox/Grouped.vue?vue&type=template&id=3380a98a&");
+/* harmony import */ var _Grouped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Grouped.vue?vue&type=script&lang=js& */ "./resources/js/examples/Checkbox/Grouped.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -510,9 +816,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Button_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Button_vue_vue_type_template_id_45870e9c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Button_vue_vue_type_template_id_45870e9c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Grouped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Grouped_vue_vue_type_template_id_3380a98a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Grouped_vue_vue_type_template_id_3380a98a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -522,38 +828,298 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/pages/Components/Button.vue"
+component.options.__file = "resources/js/examples/Checkbox/Grouped.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/pages/Components/Button.vue?vue&type=script&lang=js&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/pages/Components/Button.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************/
+/***/ "./resources/js/examples/Checkbox/Grouped.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Grouped.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Button_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Button.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Button.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Button_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grouped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Grouped.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Grouped.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grouped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/pages/Components/Button.vue?vue&type=template&id=45870e9c&":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/pages/Components/Button.vue?vue&type=template&id=45870e9c& ***!
-  \*********************************************************************************/
+/***/ "./resources/js/examples/Checkbox/Grouped.vue?vue&type=template&id=3380a98a&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Grouped.vue?vue&type=template&id=3380a98a& ***!
+  \***********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Button_vue_vue_type_template_id_45870e9c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Button.vue?vue&type=template&id=45870e9c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Button.vue?vue&type=template&id=45870e9c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Button_vue_vue_type_template_id_45870e9c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grouped_vue_vue_type_template_id_3380a98a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Grouped.vue?vue&type=template&id=3380a98a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Grouped.vue?vue&type=template&id=3380a98a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grouped_vue_vue_type_template_id_3380a98a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Button_vue_vue_type_template_id_45870e9c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grouped_vue_vue_type_template_id_3380a98a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/Inline.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Inline.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Inline_vue_vue_type_template_id_6b1670c6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Inline.vue?vue&type=template&id=6b1670c6& */ "./resources/js/examples/Checkbox/Inline.vue?vue&type=template&id=6b1670c6&");
+/* harmony import */ var _Inline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Inline.vue?vue&type=script&lang=js& */ "./resources/js/examples/Checkbox/Inline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Inline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Inline_vue_vue_type_template_id_6b1670c6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Inline_vue_vue_type_template_id_6b1670c6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/examples/Checkbox/Inline.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/Inline.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Inline.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Inline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Inline.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Inline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Inline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/Inline.vue?vue&type=template&id=6b1670c6&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Inline.vue?vue&type=template&id=6b1670c6& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Inline_vue_vue_type_template_id_6b1670c6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Inline.vue?vue&type=template&id=6b1670c6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Inline.vue?vue&type=template&id=6b1670c6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Inline_vue_vue_type_template_id_6b1670c6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Inline_vue_vue_type_template_id_6b1670c6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/Simple.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Simple.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Simple_vue_vue_type_template_id_46c02236___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Simple.vue?vue&type=template&id=46c02236& */ "./resources/js/examples/Checkbox/Simple.vue?vue&type=template&id=46c02236&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Simple_vue_vue_type_template_id_46c02236___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Simple_vue_vue_type_template_id_46c02236___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/examples/Checkbox/Simple.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/Simple.vue?vue&type=template&id=46c02236&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/Simple.vue?vue&type=template&id=46c02236& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Simple_vue_vue_type_template_id_46c02236___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Simple.vue?vue&type=template&id=46c02236& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/Simple.vue?vue&type=template&id=46c02236&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Simple_vue_vue_type_template_id_46c02236___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Simple_vue_vue_type_template_id_46c02236___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/vModel.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/examples/Checkbox/vModel.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vModel_vue_vue_type_template_id_82927f92___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vModel.vue?vue&type=template&id=82927f92& */ "./resources/js/examples/Checkbox/vModel.vue?vue&type=template&id=82927f92&");
+/* harmony import */ var _vModel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vModel.vue?vue&type=script&lang=js& */ "./resources/js/examples/Checkbox/vModel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _vModel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _vModel_vue_vue_type_template_id_82927f92___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _vModel_vue_vue_type_template_id_82927f92___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/examples/Checkbox/vModel.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/vModel.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/vModel.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vModel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./vModel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/vModel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vModel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/examples/Checkbox/vModel.vue?vue&type=template&id=82927f92&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/examples/Checkbox/vModel.vue?vue&type=template&id=82927f92& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vModel_vue_vue_type_template_id_82927f92___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./vModel.vue?vue&type=template&id=82927f92& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Checkbox/vModel.vue?vue&type=template&id=82927f92&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vModel_vue_vue_type_template_id_82927f92___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_vModel_vue_vue_type_template_id_82927f92___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Components/Checkbox.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/pages/Components/Checkbox.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Checkbox_vue_vue_type_template_id_23d462c3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Checkbox.vue?vue&type=template&id=23d462c3& */ "./resources/js/pages/Components/Checkbox.vue?vue&type=template&id=23d462c3&");
+/* harmony import */ var _Checkbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Checkbox.vue?vue&type=script&lang=js& */ "./resources/js/pages/Components/Checkbox.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Checkbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Checkbox_vue_vue_type_template_id_23d462c3___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Checkbox_vue_vue_type_template_id_23d462c3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Components/Checkbox.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Components/Checkbox.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/pages/Components/Checkbox.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Checkbox.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Checkbox.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Components/Checkbox.vue?vue&type=template&id=23d462c3&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/pages/Components/Checkbox.vue?vue&type=template&id=23d462c3& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_23d462c3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Checkbox.vue?vue&type=template&id=23d462c3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Components/Checkbox.vue?vue&type=template&id=23d462c3&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_23d462c3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Checkbox_vue_vue_type_template_id_23d462c3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

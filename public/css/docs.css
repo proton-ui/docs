@@ -8003,6 +8003,77 @@ p, > blockquote > p {
   }
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown__button {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  font-size: 0.75rem;
+  background-color: #fff;
+  border-width: 1px;
+  border-color: #edf2f7;
+  color: #000;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  line-height: 1.25;
+}
+
+.dropdown__button:hover {
+  background-color: #edf2f7;
+  color: #000;
+}
+
+.dropdown__button:focus {
+  outline: 0;
+}
+
+.dropdown__options {
+  background-color: #fff;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  min-width: 8rem;
+}
+
+.dropdown__item {
+  text-decoration: none;
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom-width: 1px;
+  color: #1a202c;
+  background-color: #fff;
+  font-size: 0.875rem;
+}
+
+.dropdown__item:hover {
+  color: #000;
+  background-color: #f7fafc;
+  cursor: pointer;
+}
+
 .tab {
   flex: none;
   padding: 0;

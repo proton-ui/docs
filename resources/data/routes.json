@@ -62,6 +62,12 @@
         "path": "/documentation/components/collapse"
     },
 
+    "/documentation/components/dropdown": {
+        "title": "Dropdown",
+        "subtitle": "",
+        "path": "/documentation/components/dropdown"
+    },
+
     "/documentation/components/treeview": {
         "title": "Treeview",
         "subtitle": "Use treeviews to display large amounts of nested data.",
