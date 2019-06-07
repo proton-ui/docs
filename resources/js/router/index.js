@@ -15,9 +15,11 @@ function route(path, component) {
 }
 
 const records = [
-    route('/', 'Home'),
+    {
+        path: '/',
+        redirect: '/documentation/getting-started',
+    },
 
-    route('/documentation', 'Documentation'),
     route('/documentation/getting-started', 'GettingStarted'),
     route('/documentation/contributing', 'Contributing'),
     route('/documentation/roadmap', 'Roadmap'),
@@ -29,6 +31,7 @@ const records = [
     route('/documentation/components/checkbox', 'Components/Checkbox'),
     route('/documentation/components/collapse', 'Components/Collapse'),
     route('/documentation/components/dropdown', 'Components/Dropdown'),
+    route('/documentation/components/input', 'Components/Input'),
     route('/documentation/components/treeview', 'Components/Treeview'),
 
     { path: '*', redirect: '/' }

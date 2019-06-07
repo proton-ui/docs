@@ -15638,17 +15638,64 @@ var resources_data_routes__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     breadcrumb: Array,
     title: String,
-    subtitle: String
+    subtitle: String,
+    data: null
   },
   data: function data() {
     return {
-      routes: resources_data_routes__WEBPACK_IMPORTED_MODULE_0__
+      routes: resources_data_routes__WEBPACK_IMPORTED_MODULE_0__,
+      open: false
     };
+  },
+  methods: {
+    toggleBars: function toggleBars() {
+      this.open = !this.open;
+    },
+    normalizedData: function normalizedData(items) {
+      return items.map(function (item) {
+        return typeof item === 'string' ? resources_data_routes__WEBPACK_IMPORTED_MODULE_0__[item] : item;
+      });
+    }
   }
 });
 
@@ -57673,11 +57720,11 @@ var render = function() {
     { staticClass: "flex flex-1 relative" },
     [
       _c("div", {
-        staticClass: "absolute bg-gray-100",
+        staticClass: "absolute bg-gray-100 invisible lg:visible",
         staticStyle: { right: "50%", bottom: "0", left: "0", top: "0" }
       }),
       _vm._v(" "),
-      _c("the-navbar"),
+      _c("the-navbar", { attrs: { data: _vm.menu } }),
       _vm._v(" "),
       _c(
         "main",
@@ -58031,17 +58078,17 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "proton-example" }, [
+  return _c("div", { staticClass: "example" }, [
     _c(
       "div",
-      { ref: "example", staticClass: "proton-example__preview" },
+      { ref: "example", staticClass: "example__preview" },
       [_c(_vm.component, { tag: "component" })],
       1
     ),
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "proton-example__markup" },
+      { staticClass: "example__markup" },
       [_c("code-reference", { attrs: { code: _vm.code } })],
       1
     )
@@ -58104,95 +58151,215 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    {
+      staticClass: "bg-white fixed w-full z-20 pin-t border-b border-gray-300"
+    },
+    [
+      _c(
+        "nav",
+        {
+          staticClass:
+            "w-full container mx-auto flex flex-wrap items-center mt-0 py-3 px-6"
+        },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "w-1/2 pr-0 flex flex-row-reverse lg:hidden" },
+            [
+              _c(
+                "a",
+                {
+                  directives: [
+                    {
+                      name: "collapse",
+                      rawName: "v-collapse:mobile-menu",
+                      arg: "mobile-menu"
+                    }
+                  ],
+                  attrs: { href: "#" }
+                },
+                [_c("i", { staticClass: "far fa-fw fa-bars text-gray-700" })]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(1)
+        ]
+      ),
+      _vm._v(" "),
+      _c("p-collapse", { attrs: { name: "mobile-menu" } }, [
+        _c("div", { staticClass: "bg-gray-200 text-gray-700 flex lg:hidden" }, [
+          _c(
+            "div",
+            { staticClass: "container mx-auto py-3 px-6" },
+            [
+              _vm._l(_vm.data, function(items, index) {
+                return [
+                  _c(
+                    "p",
+                    {
+                      key: items.category,
+                      staticClass:
+                        "font-semibold uppercase text-gray-500 tracking-wider leading-loose pb-1"
+                    },
+                    [
+                      _vm._v(
+                        "\n                        " +
+                          _vm._s(items.category) +
+                          "\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "ul",
+                    { key: index, staticClass: "leading-loose mb-6" },
+                    _vm._l(_vm.normalizedData(items.pages), function(item) {
+                      return _c(
+                        "router-link",
+                        {
+                          directives: [
+                            {
+                              name: "collapse",
+                              rawName: "v-collapse:mobile-menu",
+                              arg: "mobile-menu"
+                            }
+                          ],
+                          key: item.path,
+                          staticClass: "sidebar__item",
+                          attrs: { tag: "li", to: item.path }
+                        },
+                        [
+                          item.title
+                            ? _c("a", { staticClass: "sidebar__link" }, [
+                                _c("span", [_vm._v(_vm._s(item.title))])
+                              ])
+                            : [
+                                _c("p", [_vm._v(_vm._s(item.category))]),
+                                _vm._v(" "),
+                                _c(
+                                  "ul",
+                                  _vm._l(
+                                    _vm.normalizedData(item.pages),
+                                    function(subItem) {
+                                      return _c(
+                                        "li",
+                                        {
+                                          key: subItem.title,
+                                          staticClass: "sidebar__item"
+                                        },
+                                        [
+                                          _c(
+                                            "router-link",
+                                            {
+                                              directives: [
+                                                {
+                                                  name: "collapse",
+                                                  rawName:
+                                                    "v-collapse:mobile-menu",
+                                                  arg: "mobile-menu"
+                                                }
+                                              ],
+                                              staticClass: "sidebar__link",
+                                              attrs: { to: subItem.path }
+                                            },
+                                            [
+                                              _c("span", [
+                                                _vm._v(_vm._s(subItem.title))
+                                              ])
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    }
+                                  ),
+                                  0
+                                )
+                              ]
+                        ],
+                        2
+                      )
+                    }),
+                    1
+                  )
+                ]
+              })
+            ],
+            2
+          )
+        ])
+      ])
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "bg-white fixed w-full z-20 pin-t border-b border-gray-300"
-      },
-      [
+    return _c("div", { staticClass: "w-1/2 pl-2 md:pl-0" }, [
+      _c(
+        "a",
+        {
+          staticClass:
+            "text-gray-800 text-2xl no-underline hover:no-underline font-semibold",
+          attrs: { href: "/" }
+        },
+        [_vm._v("\n                Proton\n            ")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-1/2 pr-0 hidden lg:block" }, [
+      _c("div", { staticClass: "flex relative inline-block float-right" }, [
         _c(
-          "nav",
+          "ul",
           {
-            staticClass:
-              "w-full container mx-auto flex flex-wrap items-center mt-0 py-3 px-6"
+            staticClass: "list-reset lg:flex flex-1 items-center px-4 md:px-0"
           },
           [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "w-full text-center lg:w-1/2 lg:text-left pl-2 md:pl-0"
-              },
-              [
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "text-gray-800 text-2xl no-underline hover:no-underline font-semibold",
-                    attrs: { href: "/" }
-                  },
-                  [_vm._v("\n                Proton\n            ")]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "w-1/2 pr-0 hidden lg:block" }, [
+            _c("li", { staticClass: "mr-2 my-2 md:my-0" }, [
               _c(
-                "div",
-                { staticClass: "flex relative inline-block float-right" },
-                [
-                  _c(
-                    "ul",
-                    {
-                      staticClass:
-                        "list-reset lg:flex flex-1 items-center px-4 md:px-0"
-                    },
-                    [
-                      _c("li", { staticClass: "mr-2 my-2 md:my-0" }, [
-                        _c(
-                          "a",
-                          {
-                            staticClass:
-                              "text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-black",
-                            attrs: {
-                              href: "https://github.com/efellemedia/proton",
-                              exact: ""
-                            }
-                          },
-                          [_c("i", { staticClass: "fab fa-github pr-3" })]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "mr-2 my-2 md:my-0" }, [
-                        _c(
-                          "a",
-                          {
-                            staticClass:
-                              "text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-blue-500",
-                            attrs: {
-                              href: "https://twitter.com/seattlewebsites",
-                              exact: ""
-                            }
-                          },
-                          [_c("i", { staticClass: "fab fa-twitter pr-3" })]
-                        )
-                      ])
-                    ]
-                  )
-                ]
+                "a",
+                {
+                  staticClass:
+                    "text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-black",
+                  attrs: {
+                    href: "https://github.com/efellemedia/proton",
+                    exact: ""
+                  }
+                },
+                [_c("i", { staticClass: "fab fa-github pr-3" })]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "mr-2 my-2 md:my-0" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-blue-500",
+                  attrs: {
+                    href: "https://twitter.com/seattlewebsites",
+                    exact: ""
+                  }
+                },
+                [_c("i", { staticClass: "fab fa-twitter pr-3" })]
               )
             ])
           ]
         )
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -73124,7 +73291,7 @@ module.exports = function(module) {
 /*! exports provided: documentation, default */
 /***/ (function(module) {
 
-module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card","/documentation/components/chart","/documentation/components/checkbox","/documentation/components/collapse","/documentation/components/dropdown","/documentation/components/treeview"]}]};
+module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card","/documentation/components/chart","/documentation/components/checkbox","/documentation/components/collapse","/documentation/components/dropdown","/documentation/components/input","/documentation/components/treeview"]}]};
 
 /***/ }),
 
@@ -73132,10 +73299,10 @@ module.exports = {"documentation":[{"category":"Development","pages":["/document
 /*!************************************!*\
   !*** ./resources/data/routes.json ***!
   \************************************/
-/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, /documentation/components/chart, /documentation/components/checkbox, /documentation/components/collapse, /documentation/components/dropdown, /documentation/components/treeview, default */
+/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, /documentation/components/chart, /documentation/components/checkbox, /documentation/components/collapse, /documentation/components/dropdown, /documentation/components/input, /documentation/components/treeview, default */
 /***/ (function(module) {
 
-module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"},"/documentation/components/chart":{"title":"Chart","subtitle":"","path":"/documentation/components/chart"},"/documentation/components/checkbox":{"title":"Checkbox","subtitle":"","path":"/documentation/components/checkbox"},"/documentation/components/collapse":{"title":"Collapse","subtitle":"Toggle the visibility of any element within your application.","path":"/documentation/components/collapse"},"/documentation/components/dropdown":{"title":"Dropdown","subtitle":"","path":"/documentation/components/dropdown"},"/documentation/components/treeview":{"title":"Treeview","subtitle":"Use treeviews to display large amounts of nested data.","path":"/documentation/components/treeview"}};
+module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"},"/documentation/components/chart":{"title":"Chart","subtitle":"","path":"/documentation/components/chart"},"/documentation/components/checkbox":{"title":"Checkbox","subtitle":"","path":"/documentation/components/checkbox"},"/documentation/components/collapse":{"title":"Collapse","subtitle":"Toggle the visibility of any element within your application.","path":"/documentation/components/collapse"},"/documentation/components/dropdown":{"title":"Dropdown","subtitle":"","path":"/documentation/components/dropdown"},"/documentation/components/input":{"title":"Input","subtitle":"","path":"/documentation/components/input"},"/documentation/components/treeview":{"title":"Treeview","subtitle":"Use treeviews to display large amounts of nested data.","path":"/documentation/components/treeview"}};
 
 /***/ }),
 
@@ -73878,6 +74045,14 @@ var map = {
 		"./resources/js/pages/Components/Dropdown.vue",
 		4
 	],
+	"./Components/Input": [
+		"./resources/js/pages/Components/Input.vue",
+		12
+	],
+	"./Components/Input.vue": [
+		"./resources/js/pages/Components/Input.vue",
+		12
+	],
 	"./Components/Treeview": [
 		"./resources/js/pages/Components/Treeview.vue",
 		1
@@ -73894,14 +74069,6 @@ var map = {
 		"./resources/js/pages/Contributing.vue",
 		7
 	],
-	"./Documentation": [
-		"./resources/js/pages/Documentation.vue",
-		8
-	],
-	"./Documentation.vue": [
-		"./resources/js/pages/Documentation.vue",
-		8
-	],
 	"./GettingStarted": [
 		"./resources/js/pages/GettingStarted.vue",
 		9
@@ -73909,14 +74076,6 @@ var map = {
 	"./GettingStarted.vue": [
 		"./resources/js/pages/GettingStarted.vue",
 		9
-	],
-	"./Home": [
-		"./resources/js/pages/Home.vue",
-		10
-	],
-	"./Home.vue": [
-		"./resources/js/pages/Home.vue",
-		10
 	],
 	"./Roadmap": [
 		"./resources/js/pages/Roadmap.vue",
@@ -73979,8 +74138,11 @@ function route(path, _component) {
   };
 }
 
-var records = [route('/', 'Home'), route('/documentation', 'Documentation'), route('/documentation/getting-started', 'GettingStarted'), route('/documentation/contributing', 'Contributing'), route('/documentation/roadmap', 'Roadmap'), // Components
-route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), route('/documentation/components/chart', 'Components/Chart'), route('/documentation/components/checkbox', 'Components/Checkbox'), route('/documentation/components/collapse', 'Components/Collapse'), route('/documentation/components/dropdown', 'Components/Dropdown'), route('/documentation/components/treeview', 'Components/Treeview'), {
+var records = [{
+  path: '/',
+  redirect: '/documentation/getting-started'
+}, route('/documentation/getting-started', 'GettingStarted'), route('/documentation/contributing', 'Contributing'), route('/documentation/roadmap', 'Roadmap'), // Components
+route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), route('/documentation/components/chart', 'Components/Chart'), route('/documentation/components/checkbox', 'Components/Checkbox'), route('/documentation/components/collapse', 'Components/Collapse'), route('/documentation/components/dropdown', 'Components/Dropdown'), route('/documentation/components/input', 'Components/Input'), route('/documentation/components/treeview', 'Components/Treeview'), {
   path: '*',
   redirect: '/'
 }];

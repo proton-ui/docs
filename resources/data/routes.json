@@ -68,6 +68,12 @@
         "path": "/documentation/components/dropdown"
     },
 
+    "/documentation/components/input": {
+        "title": "Input",
+        "subtitle": "",
+        "path": "/documentation/components/input"
+    },
+
     "/documentation/components/treeview": {
         "title": "Treeview",
         "subtitle": "Use treeviews to display large amounts of nested data.",

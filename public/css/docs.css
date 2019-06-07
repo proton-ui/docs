@@ -7626,7 +7626,7 @@ ol li strong code {
 }
 
 pre {
-  white-space: pre;
+  white-space: pre-wrap;
   font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   border-radius: 0.5rem;
   font-size: 0.875rem;
@@ -8074,6 +8074,91 @@ p, > blockquote > p {
   cursor: pointer;
 }
 
+.example, .code-reference {
+  border-width: 4px;
+  border-color: #edf2f7;
+  border-radius: 0.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.example pre code, .code-reference pre code {
+  padding: 1.5rem;
+}
+
+.example__preview {
+  padding: 1.5rem;
+}
+
+.example__markup {
+  border-style: none;
+  background-color: #f7fafc;
+}
+
+.example__markup .code-reference {
+  border-style: none;
+  margin: 0;
+}
+
+input.form__control, select.form__control, textarea.form__control {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: block;
+  width: 100%;
+  color: #4a5568;
+  border-width: 2px;
+  border-color: #edf2f7;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  line-height: 1.25;
+}
+
+input.form__control:focus, select.form__control:focus, textarea.form__control:focus {
+  outline: 0;
+  border-color: #9f7aea;
+}
+
+input.form__control.form__error, select.form__control.form__error, textarea.form__control.form__error {
+  border-color: #f56565;
+}
+
+.form__label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #1a202c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.form__control--meta {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__control--meta span {
+  display: block;
+}
+
+.form__control--meta .form__error--message {
+  color: #f56565;
+}
+
+.form__control--meta > .form__help {
+  color: #4a5568;
+  font-style: italic;
+}
+
+.form__control--meta > .form__password {
+  margin-left: 0.5rem;
+  flex: none;
+}
+
 .tab {
   flex: none;
   padding: 0;
@@ -8451,32 +8536,6 @@ hue-6-2: #c18401
 
 .hljs-link {
   text-decoration: underline;
-}
-
-.proton-example, .code-reference {
-  border-width: 4px;
-  border-color: #edf2f7;
-  border-radius: 0.25rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.proton-example pre code, .code-reference pre code {
-  padding: 1.5rem;
-}
-
-.proton-example__preview {
-  padding: 1.5rem;
-}
-
-.proton-example__markup {
-  border-style: none;
-  background-color: #f7fafc;
-}
-
-.proton-example__markup .code-reference {
-  border-style: none;
-  margin: 0;
 }
 
 @media (min-width: 640px){

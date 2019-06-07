@@ -18,6 +18,7 @@
                 "/documentation/components/checkbox",
                 "/documentation/components/collapse",
                 "/documentation/components/dropdown",
+                "/documentation/components/input",
                 "/documentation/components/treeview"
             ]
         }

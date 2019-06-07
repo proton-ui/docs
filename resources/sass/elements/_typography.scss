@@ -61,7 +61,7 @@ ol li strong code {
 }
 
 pre {
-    @apply whitespace-pre;
+    @apply whitespace-pre-wrap;
     @apply font-mono;
     @apply rounded-lg;
     @apply text-sm;

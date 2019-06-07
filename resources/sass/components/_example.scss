@@ -1,0 +1,19 @@
+.example, .code-reference {
+    @apply border-4 border-gray-200 rounded my-6;
+
+    pre code {
+        @apply p-6;
+    }
+}
+
+.example__preview {
+    @apply p-6;
+}
+
+.example__markup {
+    @apply border-none bg-gray-100;
+
+    .code-reference {
+        @apply border-none m-0;
+    }
+}

@@ -1,0 +1,37 @@
+input, select, textarea {
+    &.form__control {
+        @apply appearance-none block w-full text-gray-700 border-2 border-gray-200 rounded p-2 leading-tight;
+
+        &:focus {
+            @apply outline-none border-purple-500;
+        }
+
+        &.form__error {
+            @apply border-red-500;
+        }
+    }
+}
+
+.form__label {
+    @apply .block .uppercase .tracking-wide .text-gray-900 .text-xs .font-bold .mb-2;
+}
+
+.form__control--meta {
+    @apply .text-sm .my-2 .flex .justify-between;
+
+    span {
+        @apply .block;
+    }
+
+    .form__error--message {
+        @apply .text-red-500;
+    }
+
+    > .form__help {
+        @apply .text-gray-700 .italic;
+    }
+
+    > .form__password {
+        @apply .ml-2 .flex-none;
+    }
+}

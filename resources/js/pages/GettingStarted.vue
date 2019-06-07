@@ -1,10 +1,26 @@
 <template>
     <article>
-        <p>Yeah yeah, we get it, there are <i>tons</i> of UI libraries and frameworks out there on the web, so why another one? We love working with Tailwind and Vue and didn't find any UI library out there to easily pop into our projects. So, we're scratching our own itch here and made it open-source in the process.</p>
-
-        <h2>1. npm or Yarn</h2>
-        <p>Install with either npm or Yarn. Use whichever you prefer in your project.</p>
-
+        <h2>Yarn</h2>
         <code-reference lang="bash" code="yarn add @efelle/proton"></code-reference>
+
+        <h2>Module System</h2>
+        <p>When using a module system, you must explicitly install Proton via <code>Vue.use()</code>.</p>
+
+        <code-reference lang="js" :code="useProton | pre"></code-reference>
     </article>
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+                useProton: `
+                import Vue from 'vue'
+                import Proton from '@efelle/proton'
+
+                Vue.use(Proton)
+                `
+            }
+        }
+    }
+</script>
