@@ -9,6 +9,8 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _examples_Chart_Visitors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../examples/Chart/Visitors */ "./resources/js/examples/Chart/Visitors.vue");
+/* harmony import */ var _raw_loader_examples_Chart_Visitors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !raw-loader!../../examples/Chart/Visitors */ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Chart/Visitors.vue");
 //
 //
 //
@@ -189,19 +191,110 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-// import Simple from '../../examples/Card/Simple'
-// import SimpleCode from '!!raw-loader!../../examples/Card/Simple'
-// import Theme from '../../examples/Card/Theme'
-// import ThemeCode from '!!raw-loader!../../examples/Card/Theme'
+//
+//
+//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
-    return {// Simple,
-      // SimpleCode,
-      // Theme,
-      // ThemeCode,
+    return {
+      Visitors: _examples_Chart_Visitors__WEBPACK_IMPORTED_MODULE_0__["default"],
+      VisitorsCode: _raw_loader_examples_Chart_Visitors__WEBPACK_IMPORTED_MODULE_1__["default"]
     };
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Chart/Visitors.vue":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./resources/js/examples/Chart/Visitors.vue ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<template>\n    <section>\n        <div class=\"card\">\n            <div class=\"card__body\">\n                <h2>Visitors</h2>\n            </div>\n\n            <p-chart\n                name=\"stats-visitors\"\n                :labels=\"[\n                    'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'\n                ]\"\n                type=\"axis-mixed\"\n                :height=\"350\"\n                :colors=\"['#4DD0E1', '#FF5722']\"\n                :line-options=\"{\n                    dotSize: 6,\n                    hideLine: 0,\n                    hideDots: 0,\n                    heatline: 0,\n                    regionFill: 1\n                }\"\n                :y-markers=\"[\n                    {\n                        label: 'Top Visitors Last Week',\n                        value: 47,\n                        options: { labelPos: 'left' }\n                    }\n                ]\"\n                :data-sets=\"[\n                    {\n                        name: 'Last Week',\n                        chartType: 'line',\n                        values: [12, 14, 11, 24, 19, 32, 47]\n                    },\n                    {\n                        name: 'This Week',\n                        chartType: 'line',\n                        values: [58, 110, 76, 240, 100, 180, 220]\n                    },\n                ]\">\n            </p-chart>\n        </div>\n    </section>\n</template>\n");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Chart/Visitors.vue?vue&type=template&id=06d32b8e&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/examples/Chart/Visitors.vue?vue&type=template&id=06d32b8e& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", [
+    _c(
+      "div",
+      { staticClass: "card" },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("p-chart", {
+          attrs: {
+            name: "stats-visitors",
+            labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            type: "axis-mixed",
+            height: 350,
+            colors: ["#4DD0E1", "#FF5722"],
+            "line-options": {
+              dotSize: 6,
+              hideLine: 0,
+              hideDots: 0,
+              heatline: 0,
+              regionFill: 1
+            },
+            "y-markers": [
+              {
+                label: "Top Visitors Last Week",
+                value: 47,
+                options: { labelPos: "left" }
+              }
+            ],
+            "data-sets": [
+              {
+                name: "Last Week",
+                chartType: "line",
+                values: [12, 14, 11, 24, 19, 32, 47]
+              },
+              {
+                name: "This Week",
+                chartType: "line",
+                values: [58, 110, 76, 240, 100, 180, 220]
+              }
+            ]
+          }
+        })
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card__body" }, [
+      _c("h2", [_vm._v("Visitors")])
+    ])
+  }
+]
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -223,7 +316,13 @@ var render = function() {
   return _c(
     "article",
     [
+      _c("h2", [_vm._v("Example")]),
+      _vm._v(" "),
       _vm._m(0),
+      _vm._v(" "),
+      _c("example", {
+        attrs: { component: _vm.Visitors, code: _vm.VisitorsCode }
+      }),
       _vm._v(" "),
       _c("api-reference", {
         attrs: {
@@ -432,13 +531,64 @@ var staticRenderFns = [
         { attrs: { href: "https://frappe.io/charts", target: "_blank" } },
         [_vm._v("Frappe Charts")]
       ),
-      _vm._v(
-        " library. Frappe Charts is described as being a GitHub-inspired, simple, and modern SVG chart library with zero dependencies."
-      )
+      _vm._v(" library.")
     ])
   }
 ]
 render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/examples/Chart/Visitors.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/examples/Chart/Visitors.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Visitors_vue_vue_type_template_id_06d32b8e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Visitors.vue?vue&type=template&id=06d32b8e& */ "./resources/js/examples/Chart/Visitors.vue?vue&type=template&id=06d32b8e&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Visitors_vue_vue_type_template_id_06d32b8e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Visitors_vue_vue_type_template_id_06d32b8e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/examples/Chart/Visitors.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/examples/Chart/Visitors.vue?vue&type=template&id=06d32b8e&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/examples/Chart/Visitors.vue?vue&type=template&id=06d32b8e& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Visitors_vue_vue_type_template_id_06d32b8e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Visitors.vue?vue&type=template&id=06d32b8e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/examples/Chart/Visitors.vue?vue&type=template&id=06d32b8e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Visitors_vue_vue_type_template_id_06d32b8e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Visitors_vue_vue_type_template_id_06d32b8e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

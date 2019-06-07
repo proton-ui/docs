@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600,700|Ubuntu+Mono&display=swap);@charset "UTF-8";
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -565,7 +565,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -3558,7 +3558,7 @@ video {
 }
 
 .font-sans{
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif{
@@ -3566,7 +3566,7 @@ video {
 }
 
 .font-mono{
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-hairline{
@@ -7614,7 +7614,7 @@ p code {
   padding-bottom: 0.25rem;
   line-height: 1.25;
   color: #805ad5;
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   vertical-align: baseline;
   font-weight: 400;
 }
@@ -7627,7 +7627,7 @@ ol li strong code {
 
 pre {
   white-space: pre;
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   border-radius: 0.5rem;
   font-size: 0.875rem;
   font-weight: 400;
@@ -7671,7 +7671,7 @@ h3 {
   color: #1a202c;
   line-height: 1.25;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 h4 {
@@ -7679,7 +7679,7 @@ h4 {
   margin-bottom: 0;
   color: #1a202c;
   line-height: 1.375;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.125rem;
 }
 
@@ -7692,7 +7692,7 @@ h2 > code,
 h3 > code,
 h4 > code {
   color: #805ad5;
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 h3 > code {
@@ -7920,6 +7920,87 @@ p, > blockquote > p {
 
 .card--dark p, .card--dark h1, .card--dark h2, .card--dark h3, .card--dark h4, .card--dark h5, .card--dark h6 {
   color: #fff;
+}
+
+.form__checkbox {
+  color: #9f7aea;
+  border-width: 2px;
+  border-color: #cbd5e0;
+  background-color: #fff;
+  display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  box-shadow: none;
+  vertical-align: middle;
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+  height: 1em;
+  width: 1em;
+  background-origin: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-print-color-adjust: exact;
+          color-adjust: exact;
+}
+
+.form__checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.form__checkbox-group--block {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.form__checkbox-group--inline {
+  display: inline-flex;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.form__checkbox-group--inline label {
+  margin-right: 1rem;
+}
+
+.form__checkbox-container > label {
+  vertical-align: middle;
+}
+
+.form__checkbox-container > label:focus {
+  outline: 0;
+}
+
+.form__checkbox:focus {
+  outline: 0;
+}
+
+.form__checkbox:focus:not(:checked) {
+  border-color: #b794f4;
+}
+
+.form__checkbox:checked {
+  background-color: currentColor;
+  border-color: currentColor;
+  background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9IiNmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUuNzA3IDcuMjkzYTEgMSAwIDAgMC0xLjQxNCAxLjQxNGwyIDJhMSAxIDAgMCAwIDEuNDE0IDBsNC00YTEgMSAwIDAgMC0xLjQxNC0xLjQxNEw3IDguNTg2IDUuNzA3IDcuMjkzeiIvPjwvc3ZnPg==");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media not print {
+  .form__checkbox::-ms-check {
+    color: transparent;
+    border-radius: 0;
+    background: inherit;
+    border-color: inherit;
+  }
 }
 
 .tab {
@@ -11257,7 +11338,7 @@ hue-6-2: #c18401
   }
 
   .sm\:font-sans{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .sm\:font-serif{
@@ -11265,7 +11346,7 @@ hue-6-2: #c18401
   }
 
   .sm\:font-mono{
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .sm\:font-hairline{
@@ -18183,7 +18264,7 @@ hue-6-2: #c18401
   }
 
   .md\:font-sans{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md\:font-serif{
@@ -18191,7 +18272,7 @@ hue-6-2: #c18401
   }
 
   .md\:font-mono{
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .md\:font-hairline{
@@ -25109,7 +25190,7 @@ hue-6-2: #c18401
   }
 
   .lg\:font-sans{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg\:font-serif{
@@ -25117,7 +25198,7 @@ hue-6-2: #c18401
   }
 
   .lg\:font-mono{
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .lg\:font-hairline{
@@ -32035,7 +32116,7 @@ hue-6-2: #c18401
   }
 
   .xl\:font-sans{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .xl\:font-serif{
@@ -32043,7 +32124,7 @@ hue-6-2: #c18401
   }
 
   .xl\:font-mono{
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .xl\:font-hairline{

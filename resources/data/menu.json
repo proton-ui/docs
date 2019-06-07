@@ -15,6 +15,7 @@
                 "/documentation/components/button",
                 "/documentation/components/card",
                 "/documentation/components/chart",
+                "/documentation/components/checkbox",
                 "/documentation/components/collapse",
                 "/documentation/components/treeview"
             ]

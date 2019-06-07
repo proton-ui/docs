@@ -149,6 +149,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Poppins',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -170,6 +171,7 @@ module.exports = {
         'serif',
       ],
       mono: [
+        'Ubuntu Mono',
         'Menlo',
         'Monaco',
         'Consolas',

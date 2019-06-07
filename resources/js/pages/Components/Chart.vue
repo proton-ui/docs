@@ -1,6 +1,9 @@
 <template>
     <article>
-        <p>Proton's charts are powered by the <a href="https://frappe.io/charts" target="_blank">Frappe Charts</a> library. Frappe Charts is described as being a GitHub-inspired, simple, and modern SVG chart library with zero dependencies.</p>
+        <h2>Example</h2>
+        <p>Proton's charts are powered by the <a href="https://frappe.io/charts" target="_blank">Frappe Charts</a> library.</p>
+
+        <example :component="Visitors" :code="VisitorsCode"></example>
 
         <api-reference :data="[{
             props: [
@@ -179,18 +182,14 @@
 </template>
 
 <script>
-    // import Simple from '../../examples/Card/Simple'
-    // import SimpleCode from '!!raw-loader!../../examples/Card/Simple'
-    // import Theme from '../../examples/Card/Theme'
-    // import ThemeCode from '!!raw-loader!../../examples/Card/Theme'
+    import Visitors from '../../examples/Chart/Visitors'
+    import VisitorsCode from '!!raw-loader!../../examples/Chart/Visitors'
 
     export default {
         data() {
             return {
-                // Simple,
-                // SimpleCode,
-                // Theme,
-                // ThemeCode,
+                Visitors,
+                VisitorsCode,
             }
         }
     }

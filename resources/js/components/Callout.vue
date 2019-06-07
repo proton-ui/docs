@@ -1,10 +1,10 @@
 <template>
     <div
-        class="border-l-4 p-4"
+        class="border-l-4 p-4 bg-gray-100 text-gray-800 rounded rounded-l-none"
         :class="{
-            'bg-green-100 border-green-500 text-green-700': tip,
-            'bg-orange-100 border-orange-500 text-orange-700': warning,
-            'bg-red-100 border-red-500 text-red-700': danger,
+            'border-green-500': tip,
+            'border-orange-500': warning,
+            'border-red-500': danger,
         }"
         role="alert"
     >

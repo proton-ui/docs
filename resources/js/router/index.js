@@ -26,6 +26,7 @@ const records = [
     route('/documentation/components/button', 'Components/Button'),
     route('/documentation/components/card', 'Components/Card'),
     route('/documentation/components/chart', 'Components/Chart'),
+    route('/documentation/components/checkbox', 'Components/Checkbox'),
     route('/documentation/components/collapse', 'Components/Collapse'),
     route('/documentation/components/treeview', 'Components/Treeview'),
 
