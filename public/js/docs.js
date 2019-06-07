@@ -15673,6 +15673,14 @@ var resources_data_routes__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
@@ -57730,7 +57738,7 @@ var render = function() {
         "main",
         {
           staticClass: "container w-full mx-auto flex",
-          staticStyle: { "padding-top": "60px" }
+          staticStyle: { "padding-top": "104px" }
         },
         [
           _c(
@@ -58151,152 +58159,162 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    {
-      staticClass: "bg-white fixed w-full z-20 pin-t border-b border-gray-300"
-    },
-    [
-      _c(
-        "nav",
-        {
-          staticClass:
-            "w-full container mx-auto flex flex-wrap items-center mt-0 py-3 px-6"
-        },
-        [
-          _vm._m(0),
-          _vm._v(" "),
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "bg-white fixed w-full z-50 pin-t border-b border-gray-300"
+      },
+      [
+        _c(
+          "nav",
+          {
+            staticClass:
+              "w-full container mx-auto flex flex-wrap items-center mt-0 py-3 px-6"
+          },
+          [
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "w-1/2 pr-0 flex flex-row-reverse lg:hidden" },
+              [
+                _c(
+                  "a",
+                  {
+                    directives: [
+                      {
+                        name: "collapse",
+                        rawName: "v-collapse:mobile-menu",
+                        arg: "mobile-menu"
+                      }
+                    ],
+                    attrs: { href: "#" }
+                  },
+                  [_c("i", { staticClass: "far fa-fw fa-bars text-gray-700" })]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(1)
+          ]
+        ),
+        _vm._v(" "),
+        _c("p-collapse", { attrs: { name: "mobile-menu" } }, [
           _c(
             "div",
-            { staticClass: "w-1/2 pr-0 flex flex-row-reverse lg:hidden" },
+            { staticClass: "bg-gray-200 text-gray-700 flex lg:hidden" },
             [
               _c(
-                "a",
-                {
-                  directives: [
-                    {
-                      name: "collapse",
-                      rawName: "v-collapse:mobile-menu",
-                      arg: "mobile-menu"
-                    }
-                  ],
-                  attrs: { href: "#" }
-                },
-                [_c("i", { staticClass: "far fa-fw fa-bars text-gray-700" })]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _vm._m(1)
-        ]
-      ),
-      _vm._v(" "),
-      _c("p-collapse", { attrs: { name: "mobile-menu" } }, [
-        _c("div", { staticClass: "bg-gray-200 text-gray-700 flex lg:hidden" }, [
-          _c(
-            "div",
-            { staticClass: "container mx-auto py-3 px-6" },
-            [
-              _vm._l(_vm.data, function(items, index) {
-                return [
-                  _c(
-                    "p",
-                    {
-                      key: items.category,
-                      staticClass:
-                        "font-semibold uppercase text-gray-500 tracking-wider leading-loose pb-1"
-                    },
-                    [
-                      _vm._v(
-                        "\n                        " +
-                          _vm._s(items.category) +
-                          "\n                    "
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "ul",
-                    { key: index, staticClass: "leading-loose mb-6" },
-                    _vm._l(_vm.normalizedData(items.pages), function(item) {
-                      return _c(
-                        "router-link",
+                "div",
+                { staticClass: "container mx-auto py-3 px-6" },
+                [
+                  _vm._l(_vm.data, function(items, index) {
+                    return [
+                      _c(
+                        "p",
                         {
-                          directives: [
-                            {
-                              name: "collapse",
-                              rawName: "v-collapse:mobile-menu",
-                              arg: "mobile-menu"
-                            }
-                          ],
-                          key: item.path,
-                          staticClass: "sidebar__item",
-                          attrs: { tag: "li", to: item.path }
+                          key: items.category,
+                          staticClass:
+                            "font-semibold uppercase text-gray-500 tracking-wider leading-loose pb-1"
                         },
                         [
-                          item.title
-                            ? _c("a", { staticClass: "sidebar__link" }, [
-                                _c("span", [_vm._v(_vm._s(item.title))])
-                              ])
-                            : [
-                                _c("p", [_vm._v(_vm._s(item.category))]),
-                                _vm._v(" "),
-                                _c(
-                                  "ul",
-                                  _vm._l(
-                                    _vm.normalizedData(item.pages),
-                                    function(subItem) {
-                                      return _c(
-                                        "li",
-                                        {
-                                          key: subItem.title,
-                                          staticClass: "sidebar__item"
-                                        },
-                                        [
-                                          _c(
-                                            "router-link",
+                          _vm._v(
+                            "\n                            " +
+                              _vm._s(items.category) +
+                              "\n                        "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "ul",
+                        { key: index, staticClass: "leading-loose mb-6" },
+                        _vm._l(_vm.normalizedData(items.pages), function(item) {
+                          return _c(
+                            "router-link",
+                            {
+                              directives: [
+                                {
+                                  name: "collapse",
+                                  rawName: "v-collapse:mobile-menu",
+                                  arg: "mobile-menu"
+                                }
+                              ],
+                              key: item.path,
+                              staticClass: "sidebar__item",
+                              attrs: { tag: "li", to: item.path }
+                            },
+                            [
+                              item.title
+                                ? _c("a", { staticClass: "sidebar__link" }, [
+                                    _c("span", [_vm._v(_vm._s(item.title))])
+                                  ])
+                                : [
+                                    _c("p", [_vm._v(_vm._s(item.category))]),
+                                    _vm._v(" "),
+                                    _c(
+                                      "ul",
+                                      _vm._l(
+                                        _vm.normalizedData(item.pages),
+                                        function(subItem) {
+                                          return _c(
+                                            "li",
                                             {
-                                              directives: [
-                                                {
-                                                  name: "collapse",
-                                                  rawName:
-                                                    "v-collapse:mobile-menu",
-                                                  arg: "mobile-menu"
-                                                }
-                                              ],
-                                              staticClass: "sidebar__link",
-                                              attrs: { to: subItem.path }
+                                              key: subItem.title,
+                                              staticClass: "sidebar__item"
                                             },
                                             [
-                                              _c("span", [
-                                                _vm._v(_vm._s(subItem.title))
-                                              ])
-                                            ]
+                                              _c(
+                                                "router-link",
+                                                {
+                                                  directives: [
+                                                    {
+                                                      name: "collapse",
+                                                      rawName:
+                                                        "v-collapse:mobile-menu",
+                                                      arg: "mobile-menu"
+                                                    }
+                                                  ],
+                                                  staticClass: "sidebar__link",
+                                                  attrs: { to: subItem.path }
+                                                },
+                                                [
+                                                  _c("span", [
+                                                    _vm._v(
+                                                      _vm._s(subItem.title)
+                                                    )
+                                                  ])
+                                                ]
+                                              )
+                                            ],
+                                            1
                                           )
-                                        ],
-                                        1
-                                      )
-                                    }
-                                  ),
-                                  0
-                                )
-                              ]
-                        ],
-                        2
+                                        }
+                                      ),
+                                      0
+                                    )
+                                  ]
+                            ],
+                            2
+                          )
+                        }),
+                        1
                       )
-                    }),
-                    1
-                  )
-                ]
-              })
-            ],
-            2
+                    ]
+                  })
+                ],
+                2
+              )
+            ]
           )
         ])
-      ])
-    ],
-    1
-  )
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _vm._m(2)
+  ])
 }
 var staticRenderFns = [
   function() {
@@ -58311,7 +58329,7 @@ var staticRenderFns = [
             "text-gray-800 text-2xl no-underline hover:no-underline font-semibold",
           attrs: { href: "/" }
         },
-        [_vm._v("\n                Proton\n            ")]
+        [_vm._v("\n                    Proton\n                ")]
       )
     ])
   },
@@ -58360,6 +58378,39 @@ var staticRenderFns = [
         )
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "bg-purple-300 fixed w-full z-10 border-b border-purple-200",
+        staticStyle: { top: "61px" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full container mx-auto flex flex-wrap justify-center items-center mt-0 py-3 px-6 text-xs text-purple-900"
+          },
+          [
+            _c("i", {
+              staticClass:
+                "fas fa-fw fa-construction fa-lg text-purple-600 mr-3"
+            }),
+            _vm._v(" New documentation is in the works "),
+            _c("i", {
+              staticClass:
+                "fas fa-fw fa-construction fa-lg text-purple-600 ml-3"
+            })
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true

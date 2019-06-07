@@ -3,7 +3,7 @@
         <div class="absolute bg-gray-100 invisible lg:visible" style="right: 50%; bottom: 0; left: 0; top: 0;"></div>
         <the-navbar :data="menu"></the-navbar>
 
-        <main class="container w-full mx-auto flex" style="padding-top: 60px;">
+        <main class="container w-full mx-auto flex" style="padding-top: 104px;">
             <div class="w-full flex flex-wrap">
                 <the-sidebar :data="menu"></the-sidebar>
                 
