@@ -1,0 +1,67 @@
+.form__select {
+    @apply .relative .w-full;
+
+    &-button {
+        @apply .appearance-none .flex .w-full .bg-gray-200 .text-gray-900 .border .border-gray-300 .rounded .px-3 .py-2 .leading-loose;
+
+        &:focus {
+            @apply .outline-none .shadow .bg-white;
+        }
+    }
+
+    &-dropdown {
+        @apply .my-1 .absolute .right-0 .left-0 .bg-gray-200 .border .rounded .p-3 .shadow-md .z-50;
+    }
+
+    &-search {
+        @apply .flex .w-full .bg-gray-200 .text-gray-900 .border .border-gray-300 .rounded-sm .px-3 .py-2 .leading-loose;
+
+        &:focus {
+            @apply .outline-none .shadow .bg-white;
+        }
+
+        &-empty {
+            @apply .mt-3 .px-2 .border-l-4 .border-transparent;
+        }
+    }
+
+    &-controls {
+        @apply .flex .justify-between .text-xs;
+    }
+
+    &-options {
+        @apply .list-none .p-0 .relative .mt-3 .overflow-y-auto;
+
+        max-height: 14rem;
+    }
+
+    &-option {
+        @apply .px-2;
+
+        &:hover {
+            @apply .cursor-pointer .bg-gray-200;
+        }
+
+        &--selected {
+            @apply .font-bold;
+        }
+
+        &--highlighted {
+            @apply .bg-gray-200;
+        }
+    }
+
+    &--dark {
+        .form__select-dropdown {
+            @apply .bg-gray-900 .text-white;
+        }
+
+        .form__select-option:hover {
+            @apply .cursor-pointer .bg-black;
+        }
+
+        .form__select-option--highlighted {
+            @apply .bg-black;
+        }
+    }
+}

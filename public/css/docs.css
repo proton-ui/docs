@@ -8159,6 +8159,125 @@ input.form__control.form__error, select.form__control.form__error, textarea.form
   flex: none;
 }
 
+.form__select {
+  position: relative;
+  width: 100%;
+}
+
+.form__select-button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: flex;
+  width: 100%;
+  background-color: #edf2f7;
+  color: #1a202c;
+  border-width: 1px;
+  border-color: #e2e8f0;
+  border-radius: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 2;
+}
+
+.form__select-button:focus {
+  outline: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+
+.form__select-dropdown {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #edf2f7;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 50;
+}
+
+.form__select-search {
+  display: flex;
+  width: 100%;
+  background-color: #edf2f7;
+  color: #1a202c;
+  border-width: 1px;
+  border-color: #e2e8f0;
+  border-radius: 0.125rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 2;
+}
+
+.form__select-search:focus {
+  outline: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+
+.form__select-search-empty {
+  margin-top: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-left-width: 4px;
+  border-color: transparent;
+}
+
+.form__select-controls {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.form__select-options {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  margin-top: 0.75rem;
+  overflow-y: auto;
+  max-height: 14rem;
+}
+
+.form__select-option {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.form__select-option:hover {
+  cursor: pointer;
+  background-color: #edf2f7;
+}
+
+.form__select-option--selected {
+  font-weight: 700;
+}
+
+.form__select-option--highlighted {
+  background-color: #edf2f7;
+}
+
+.form__select--dark .form__select-dropdown {
+  background-color: #1a202c;
+  color: #fff;
+}
+
+.form__select--dark .form__select-option:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.form__select--dark .form__select-option--highlighted {
+  background-color: #000;
+}
+
 .tab {
   flex: none;
   padding: 0;

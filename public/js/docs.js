@@ -73342,7 +73342,7 @@ module.exports = function(module) {
 /*! exports provided: documentation, default */
 /***/ (function(module) {
 
-module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card","/documentation/components/chart","/documentation/components/checkbox","/documentation/components/collapse","/documentation/components/dropdown","/documentation/components/input","/documentation/components/treeview"]}]};
+module.exports = {"documentation":[{"category":"Development","pages":["/documentation/getting-started","/documentation/contributing","/documentation/roadmap"]},{"category":"Components","pages":["/documentation/components/button","/documentation/components/card","/documentation/components/chart","/documentation/components/checkbox","/documentation/components/collapse","/documentation/components/dropdown","/documentation/components/input","/documentation/components/sortable","/documentation/components/treeview"]}]};
 
 /***/ }),
 
@@ -73350,10 +73350,10 @@ module.exports = {"documentation":[{"category":"Development","pages":["/document
 /*!************************************!*\
   !*** ./resources/data/routes.json ***!
   \************************************/
-/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, /documentation/components/chart, /documentation/components/checkbox, /documentation/components/collapse, /documentation/components/dropdown, /documentation/components/input, /documentation/components/treeview, default */
+/*! exports provided: /, /documentation, /documentation/getting-started, /documentation/contributing, /documentation/roadmap, /documentation/components/button, /documentation/components/card, /documentation/components/chart, /documentation/components/checkbox, /documentation/components/collapse, /documentation/components/dropdown, /documentation/components/input, /documentation/components/sortable, /documentation/components/treeview, default */
 /***/ (function(module) {
 
-module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"},"/documentation/components/chart":{"title":"Chart","subtitle":"","path":"/documentation/components/chart"},"/documentation/components/checkbox":{"title":"Checkbox","subtitle":"","path":"/documentation/components/checkbox"},"/documentation/components/collapse":{"title":"Collapse","subtitle":"Toggle the visibility of any element within your application.","path":"/documentation/components/collapse"},"/documentation/components/dropdown":{"title":"Dropdown","subtitle":"","path":"/documentation/components/dropdown"},"/documentation/components/input":{"title":"Input","subtitle":"","path":"/documentation/components/input"},"/documentation/components/treeview":{"title":"Treeview","subtitle":"Use treeviews to display large amounts of nested data.","path":"/documentation/components/treeview"}};
+module.exports = {"/":{"title":"Proton","subtitle":"Hello World","breadTitle":"Home","path":"/"},"/documentation":{"title":"Documentation","subtitle":"Stay awhile and listen","path":"/documentation","githubPath":"pages/Documentation.vue","menu":"documentation","breadcrumb":["/","documentation"]},"/documentation/getting-started":{"title":"Getting Started","subtitle":"","path":"/documentation/getting-started"},"/documentation/contributing":{"title":"Contributing","subtitle":"","path":"/documentation/contributing"},"/documentation/roadmap":{"title":"Roadmap","subtitle":"","path":"/documentation/roadmap"},"/documentation/components/button":{"title":"Button","subtitle":"Use buttons to perform actions in forms, dialogs, and more.","path":"/documentation/components/button"},"/documentation/components/card":{"title":"Card","subtitle":"Use cards to provide a flexible but distinguishable container for your content.","path":"/documentation/components/card"},"/documentation/components/chart":{"title":"Chart","subtitle":"","path":"/documentation/components/chart"},"/documentation/components/checkbox":{"title":"Checkbox","subtitle":"","path":"/documentation/components/checkbox"},"/documentation/components/collapse":{"title":"Collapse","subtitle":"Toggle the visibility of any element within your application.","path":"/documentation/components/collapse"},"/documentation/components/dropdown":{"title":"Dropdown","subtitle":"","path":"/documentation/components/dropdown"},"/documentation/components/input":{"title":"Input","subtitle":"","path":"/documentation/components/input"},"/documentation/components/sortable":{"title":"Sortable","subtitle":"","path":"/documentation/components/sortable"},"/documentation/components/treeview":{"title":"Treeview","subtitle":"Use treeviews to display large amounts of nested data.","path":"/documentation/components/treeview"}};
 
 /***/ }),
 
@@ -74050,43 +74050,43 @@ document.addEventListener('DOMContentLoaded', function () {
 var map = {
 	"./Components/Button": [
 		"./resources/js/pages/Components/Button.vue",
-		2
+		3
 	],
 	"./Components/Button.vue": [
 		"./resources/js/pages/Components/Button.vue",
-		2
+		3
 	],
 	"./Components/Card": [
 		"./resources/js/pages/Components/Card.vue",
-		3
+		5
 	],
 	"./Components/Card.vue": [
 		"./resources/js/pages/Components/Card.vue",
-		3
+		5
 	],
 	"./Components/Chart": [
 		"./resources/js/pages/Components/Chart.vue",
-		5
+		7
 	],
 	"./Components/Chart.vue": [
 		"./resources/js/pages/Components/Chart.vue",
-		5
+		7
 	],
 	"./Components/Checkbox": [
 		"./resources/js/pages/Components/Checkbox.vue",
-		0
+		1
 	],
 	"./Components/Checkbox.vue": [
 		"./resources/js/pages/Components/Checkbox.vue",
-		0
+		1
 	],
 	"./Components/Collapse": [
 		"./resources/js/pages/Components/Collapse.vue",
-		6
+		8
 	],
 	"./Components/Collapse.vue": [
 		"./resources/js/pages/Components/Collapse.vue",
-		6
+		8
 	],
 	"./Components/Dropdown": [
 		"./resources/js/pages/Components/Dropdown.vue",
@@ -74098,27 +74098,43 @@ var map = {
 	],
 	"./Components/Input": [
 		"./resources/js/pages/Components/Input.vue",
-		12
+		0
 	],
 	"./Components/Input.vue": [
 		"./resources/js/pages/Components/Input.vue",
+		0
+	],
+	"./Components/Select": [
+		"./resources/js/pages/Components/Select.vue",
+		6
+	],
+	"./Components/Select.vue": [
+		"./resources/js/pages/Components/Select.vue",
+		6
+	],
+	"./Components/Sortable": [
+		"./resources/js/pages/Components/Sortable.vue",
+		12
+	],
+	"./Components/Sortable.vue": [
+		"./resources/js/pages/Components/Sortable.vue",
 		12
 	],
 	"./Components/Treeview": [
 		"./resources/js/pages/Components/Treeview.vue",
-		1
+		2
 	],
 	"./Components/Treeview.vue": [
 		"./resources/js/pages/Components/Treeview.vue",
-		1
+		2
 	],
 	"./Contributing": [
 		"./resources/js/pages/Contributing.vue",
-		7
+		10
 	],
 	"./Contributing.vue": [
 		"./resources/js/pages/Contributing.vue",
-		7
+		10
 	],
 	"./GettingStarted": [
 		"./resources/js/pages/GettingStarted.vue",
@@ -74193,7 +74209,7 @@ var records = [{
   path: '/',
   redirect: '/documentation/getting-started'
 }, route('/documentation/getting-started', 'GettingStarted'), route('/documentation/contributing', 'Contributing'), route('/documentation/roadmap', 'Roadmap'), // Components
-route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), route('/documentation/components/chart', 'Components/Chart'), route('/documentation/components/checkbox', 'Components/Checkbox'), route('/documentation/components/collapse', 'Components/Collapse'), route('/documentation/components/dropdown', 'Components/Dropdown'), route('/documentation/components/input', 'Components/Input'), route('/documentation/components/treeview', 'Components/Treeview'), {
+route('/documentation/components/button', 'Components/Button'), route('/documentation/components/card', 'Components/Card'), route('/documentation/components/chart', 'Components/Chart'), route('/documentation/components/checkbox', 'Components/Checkbox'), route('/documentation/components/collapse', 'Components/Collapse'), route('/documentation/components/dropdown', 'Components/Dropdown'), route('/documentation/components/input', 'Components/Input'), route('/documentation/components/select', 'Components/Select'), route('/documentation/components/sortable', 'Components/Sortable'), route('/documentation/components/treeview', 'Components/Treeview'), {
   path: '*',
   redirect: '/'
 }];
