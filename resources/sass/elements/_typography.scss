@@ -61,7 +61,10 @@ ol li strong code {
 }
 
 pre {
-    @apply whitespace-pre-wrap;
+    @apply m-0;
+    @apply p-0;
+    @apply overflow-auto;
+    @apply scrolling-touch;
     @apply font-mono;
     @apply rounded-lg;
     @apply text-sm;

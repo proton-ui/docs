@@ -74,6 +74,12 @@
         "path": "/documentation/components/input"
     },
 
+    "/documentation/components/sortable": {
+        "title": "Sortable",
+        "subtitle": "",
+        "path": "/documentation/components/sortable"
+    },
+
     "/documentation/components/treeview": {
         "title": "Treeview",
         "subtitle": "Use treeviews to display large amounts of nested data.",
