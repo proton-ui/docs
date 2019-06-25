@@ -1,5 +1,21 @@
 .form__checkbox {
-    @apply text-purple-500 border-2 border-gray-400 bg-white inline-block appearance-none shadow-none align-middle flex-shrink-0 mr-1;
+    @apply text-blue-500 border-2 border-gray-400 bg-white inline-block appearance-none shadow-none align-middle flex-shrink-0 mr-1;
+
+    &-label {
+        @apply text-sm;
+    }
+
+    &-container {
+        @apply flex items-center flex-grow-0 flex-shrink-0 p-0 m-0;
+
+        > label {
+            @apply flex items-center px-2 py-1 cursor-pointer select-none;
+
+            &:hover {
+                @apply bg-blue-100 text-blue-700;
+            }
+        }
+    }
 
     height: 1em;
     width: 1em;
@@ -36,7 +52,7 @@
     }
 
     &:focus:not(:checked) {
-        @apply border-purple-400;
+        @apply border-blue-400;
     }
 
     &:checked {

@@ -18,6 +18,9 @@
                 </p-sortable-item>
             </ul>
         </p-sortable-list>
+
+        <p class="mb-2 mt-10"><strong>Value:</strong></p>
+        <p><code>{{ contacts }}</code></p>
     </section>
 </template>
 

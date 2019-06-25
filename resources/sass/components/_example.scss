@@ -7,7 +7,7 @@
 }
 
 .example__preview {
-    @apply p-6;
+    @apply p-6 overflow-auto scrolling-touch;
 }
 
 .example__markup {
