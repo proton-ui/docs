@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="overflow-hidden">
         <p-checkbox-group inline label="Select your toppings" help="Choose one or more toppings for your pizza. Pineapple is not an option." class="mb-10">
             <p-checkbox name="toppings" id="pepperoni" native-value="pepperoni" v-model="toppings">Pepperoni</p-checkbox>
             <p-checkbox name="toppings" id="mushrooms" native-value="mushrooms" v-model="toppings">Mushrooms</p-checkbox>

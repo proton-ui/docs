@@ -31,7 +31,7 @@
         }
 
         &--inline {
-            @apply .inline-flex my-3;
+            @apply .max-w-full .flex .flex-wrap .my-3;
 
             label {
                 @apply mr-4;
