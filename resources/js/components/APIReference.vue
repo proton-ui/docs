@@ -22,9 +22,9 @@
                             <tbody>
                                 <tr v-for="prop in component.props" :key="prop.name">
                                     <td v-html="prop.name"></td>
-                                    <td>{{ prop.description }}</td>
+                                    <td v-html="prop.description"></td>
                                     <td v-html="prop.type"></td>
-                                    <td>{{ prop.values }}</td>
+                                    <td v-html="prop.values"></td>
                                     <td>{{ prop.default }}</td>
                                 </tr>
                             </tbody>
