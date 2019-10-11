@@ -19,6 +19,7 @@
                 "/documentation/components/collapse",
                 "/documentation/components/dropdown",
                 "/documentation/components/input",
+                "/documentation/components/select",
                 "/documentation/components/sortable",
                 "/documentation/components/treeview"
             ]
