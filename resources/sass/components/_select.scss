@@ -15,6 +15,8 @@
 
     &-arrow {
         @apply .absolute .right-0 .mr-2 .my-auto;
+
+        top: 1em;
     }
 
     &-search {

@@ -74,6 +74,12 @@
         "path": "/documentation/components/input"
     },
 
+    "/documentation/components/select": {
+        "title": "Select",
+        "subtitle": "",
+        "path": "/documentation/components/select"
+    },
+
     "/documentation/components/sortable": {
         "title": "Sortable",
         "subtitle": "",
