@@ -16,7 +16,7 @@
                     <div class="flex relative inline-block float-right">
                         <ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
                             <li class="mr-2 my-2 md:my-0">
-                                <a href="https://github.com/efellemedia/proton" exact class="text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-black">
+                                <a href="https://github.com/proton-ui/proton" exact class="text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-black">
                                     <i class="fab fa-github pr-3"></i>
                                 </a>
                             </li>
