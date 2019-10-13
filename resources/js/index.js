@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Proton from '@efelle/proton'
+import Proton from '@proton-ui/proton'
 import hljs from 'highlight.js'
 
 import Example from './components/Example'

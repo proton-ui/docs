@@ -1,10 +1,9 @@
 <template>
-    <div>
-        <div class="bg-white fixed w-full z-50 pin-t border-b border-gray-300">
-            <nav class="w-full container mx-auto flex flex-wrap items-center mt-0 py-3 px-6">
+        <div class="bg-white w-full z-50">
+            <nav class="w-full container mx-auto flex flex-wrap items-center mt-0 p-6">
                 <div class="w-1/2 pl-2 md:pl-0">
-                    <a href="/" class="text-gray-800 text-2xl no-underline hover:no-underline font-semibold">
-                        Proton
+                    <a href="/" class="text-gray-800 text-xl no-underline hover:no-underline font-bold flex items-center hover:text-black">
+                        <img src="/proton-logo.svg" alt="Logo" class="w-8 mr-3"> Proton
                     </a>
                 </div>
 
@@ -15,15 +14,15 @@
                 <div class="w-1/2 pr-0 hidden lg:block">
                     <div class="flex relative inline-block float-right">
                         <ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
-                            <li class="mr-2 my-2 md:my-0">
+                            <li class="mr-5 my-2 md:my-0">
                                 <a href="https://github.com/proton-ui/proton" exact class="text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-black">
-                                    <i class="fab fa-github pr-3"></i>
+                                    <i class="fab fa-github mr-1"></i> GitHub
                                 </a>
                             </li>
 
                             <li class="mr-2 my-2 md:my-0">
                                 <a href="https://twitter.com/seattlewebsites" exact class="text-gray-500 text-sm no-underline hover:no-underline font-bold hover:text-blue-500">
-                                    <i class="fab fa-twitter pr-3"></i>
+                                    <i class="fab fa-twitter mr-1"></i> Twitter
                                 </a>
                             </li>
                         </ul>
@@ -62,13 +61,6 @@
                 </div>
             </p-collapse>
         </div>
-
-        <div class="bg-purple-300 fixed w-full z-30 border-b border-purple-200" style="top: 61px;">
-            <div class="w-full container mx-auto flex flex-wrap justify-center items-center mt-0 py-3 px-6 text-xs text-purple-900">
-                <i class="fas fa-fw fa-construction fa-lg text-purple-600 mr-3"></i> New documentation is in the works <i class="fas fa-fw fa-construction fa-lg text-purple-600 ml-3"></i>
-            </div>
-        </div>
-    </div>
 </template>
 
 <script>

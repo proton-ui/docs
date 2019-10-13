@@ -1,13 +1,12 @@
 <template>
-    <div class="flex flex-1 relative">
-        <div class="absolute bg-gray-100 invisible lg:visible" style="right: 50%; bottom: 0; left: 0; top: 0;"></div>
+    <div class="flex flex-col flex-1 relative">
         <the-navbar :data="menu"></the-navbar>
 
-        <main class="container w-full mx-auto flex" style="padding-top: 104px;">
+        <main class="container w-full mx-auto flex">
             <div class="w-full flex flex-wrap">
                 <the-sidebar :data="menu"></the-sidebar>
                 
-                <div class="z-10 w-full lg:w-4/5 bg-white p-6 lg:border-l border-gray-300">
+                <div class="z-10 w-full lg:w-4/5 bg-white p-6">
                     <the-header :title="meta.title"></the-header>
 
                     <router-view class="documentation"></router-view>
