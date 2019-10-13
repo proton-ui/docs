@@ -1,2 +1,2 @@
 # Proton Documentation
-This is the documentation for Proton, a Tailwind-specific Vue UI library.
+This is the documentation for Proton, a collection of renderless UI components for Vue.js.

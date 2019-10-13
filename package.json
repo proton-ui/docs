@@ -1,8 +1,11 @@
 {
-  "name": "proton-docs",
+  "name": "@proton-ui/docs",
   "private": true,
-  "repository": "git@github.com:efellemedia/proton-docs.git",
-  "author": "Shea Lewis (Kai) <shea.lewis89@gmail.com>",
+  "repository": "git@github.com:proton-ui/docs.git",
+  "author": {
+    "name": "Shea 'Kai' Lewis",
+    "url": "https://kaidesu.com/"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -13,7 +16,7 @@
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
-    "@efelle/proton": "^1.0.0-beta.15",
+    "@proton-ui/proton": "^0.1.0",
     "cross-env": "^5.2.0",
     "highlight.js": "^9.15.8",
     "laravel-mix": "^4.0.15",

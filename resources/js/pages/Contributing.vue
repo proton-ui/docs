@@ -10,7 +10,7 @@
 
         <ol>
             <li><code>yarn link</code> at the root of your Proton directory. This will create a symlink in your global Yarn directory.</li>
-            <li>In your project where you are making use of Proton, <code>yarn link @efelle/proton</code> will create the symbolic link from the global Yarn directory to your project.</li>
+            <li>In your project where you are making use of Proton, <code>yarn link @proton-ui/proton</code> will create the symbolic link from the global Yarn directory to your project.</li>
         </ol>
 
         <h2>Documentation</h2>
