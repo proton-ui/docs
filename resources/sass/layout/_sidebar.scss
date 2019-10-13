@@ -11,21 +11,19 @@
     }
 
     &__item {
-        @apply pl-2 py-1 border-t border-l border-b border-transparent rounded rounded-r-none;
+        @apply pl-2 py-1;
 
         a {
             @apply no-underline text-gray-600;
 
             &:hover {
-                @apply text-gray-900;
+                @apply text-black;
             }
         }
 
         &.router-link-active {
-            @apply bg-white border-gray-200;
-
             a {
-                @apply text-gray-900;
+                @apply text-black font-bold;
             }
         }
     }
