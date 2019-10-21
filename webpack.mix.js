@@ -22,7 +22,7 @@ mix.setPublicPath('public')
             },
         },
         output: {
-            chunkFilename: 'js/chunks/[name].js',
+            chunkFilename: "js/chunks/[id].chunk.[chunkhash].js",
         },
     })
     .options({

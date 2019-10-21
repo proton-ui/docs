@@ -86,6 +86,12 @@
         "path": "/documentation/components/sortable"
     },
 
+    "/documentation/components/tab": {
+        "title": "Tab",
+        "subtitle": "",
+        "path": "/documentation/components/tab"
+    },
+
     "/documentation/components/treeview": {
         "title": "Treeview",
         "subtitle": "Use treeviews to display large amounts of nested data.",

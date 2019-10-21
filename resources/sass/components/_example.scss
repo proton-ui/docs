@@ -1,8 +1,44 @@
 .example, .code-reference {
-    @apply border-4 border-gray-200 rounded my-6;
+    @apply border-2 border-gray-200 my-6;
 
     pre code {
         @apply p-6;
+    }
+
+    .highlight {
+        @apply max-w-full overflow-hidden relative;
+
+        &--collapsed {
+            @apply h-12;
+        }
+    }
+
+    &--show {
+        @apply flex absolute w-full justify-center text-xs inset-0 items-center text-gray-500 font-semibold tracking-wide;
+
+        background-color: hsla(210, 4, 97, 0.7);
+
+        &:hover {
+            background-color: hsla(211, 9, 88, 0.7);
+        }
+
+        &:focus {
+            @apply outline-none;
+        }
+    }
+
+    &--hide {
+        @apply flex w-full justify-center text-xs inset-0 items-center text-gray-500 font-semibold tracking-wide h-12 bg-gray-200 border-t-4 border-transparent;
+
+        // background-color: hsla(210, 4, 97, 0.7);
+
+        &:hover {
+            @apply bg-gray-300;
+        }
+
+        &:focus {
+            @apply outline-none;
+        }
     }
 }
 
