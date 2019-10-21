@@ -4,7 +4,7 @@
         <example :component="Simple" :code="SimpleCode"></example>
 
         <h2>Set Active</h2>
-        <p>You may assign the default active tab by passing through the `active` prop.</p>
+        <p>You may assign the default active tab by passing through the <code>active</code> prop.</p>
 
         <example :component="Active" :code="ActiveCode"></example>
         
