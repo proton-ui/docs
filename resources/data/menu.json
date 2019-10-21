@@ -21,7 +21,7 @@
                 "/documentation/components/input",
                 "/documentation/components/select",
                 "/documentation/components/sortable",
-                "/documentation/components/tab",
+                "/documentation/components/tabs",
                 "/documentation/components/treeview"
             ]
         }

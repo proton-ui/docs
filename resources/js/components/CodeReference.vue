@@ -4,21 +4,20 @@
 
         <figure :class="{
             'highlight': true,
-            'highlight--collapsed': ! isExpanded,
-            'highlight--expanded': isExpanded
+            'highlight--collapsed': ! expanded && ! isExpanded,
+            'highlight--expanded': isExpanded || expanded
         }">
 
             <pre v-highlight><code :class="lang">{{ code }}</code></pre>
             
-            <button class="code-reference--show" @click="isExpanded = true" v-if="! isExpanded">
+            <button class="code-reference--show" @click="isExpanded = true" v-if="! isExpanded && ! expanded">
                 <i class="far fa-code fa-fw mr-3 text-sm"></i> Show Code
             </button>
 
-            <button class="code-reference--hide" @click="isExpanded = false" v-if="isExpanded">
+            <button class="code-reference--hide" @click="isExpanded = false" v-if="! expanded">
                 <i class="far fa-eye-slash fa-fw mr-3 text-sm"></i> Hide Code
             </button>
         </figure>
-
     </div>
 </template>
 
@@ -36,6 +35,10 @@
             lang: {
                 type: String,
                 default: 'html',
+            },
+            expanded: {
+                type: Boolean,
+                default: false,
             },
             code: String,
             title: String,

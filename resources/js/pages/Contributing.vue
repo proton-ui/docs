@@ -3,7 +3,7 @@
         <h2>Local Development</h2>
         <p>After cloning Proton locally to your machine, run <code>yarn</code> to install the necessary dependencies, and then <code>yarn watch</code> to compile and watch assets for changes.</p>
 
-        <code-reference lang="bash" code="yarn && yarn watch"></code-reference>
+        <code-reference lang="bash" code="yarn && yarn watch" expanded></code-reference>
 
         <h3>Linking</h3>
         <p>To easily test and use the package locally, make use of Yarn's <a href="https://yarnpkg.com/lang/en/docs/cli/link/" target="_blank">link</a> command. Package linking is a two-step process.</p>

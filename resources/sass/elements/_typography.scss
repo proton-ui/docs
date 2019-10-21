@@ -12,6 +12,10 @@ ol > * + * {
     @apply mt-4;
 }
 
+hr, ol, p, pre, ul {
+    @apply mb-6;
+}
+
 a, p a, ul li a, ol li a {
     @apply text-blue-500 underline font-medium;
     

@@ -11347,6 +11347,10 @@ ol > * + * {
   margin-top: 1rem;
 }
 
+hr, ol, p, pre, ul {
+  margin-bottom: 1.5rem;
+}
+
 a, p a, ul li a, ol li a {
   color: #4299e1;
   text-decoration: underline;
@@ -11972,7 +11976,6 @@ input.form__control, select.form__control, textarea.form__control {
   color: #4a5568;
   border-width: 2px;
   border-color: #edf2f7;
-  border-radius: 0.25rem;
   padding: 0.5rem;
   line-height: 1.25;
 }

@@ -34,7 +34,7 @@ const records = [
     route('/documentation/components/input', 'Components/Input'),
     route('/documentation/components/select', 'Components/Select'),
     route('/documentation/components/sortable', 'Components/Sortable'),
-    route('/documentation/components/tab', 'Components/Tab'),
+    route('/documentation/components/tabs', 'Components/Tabs'),
     route('/documentation/components/treeview', 'Components/Treeview'),
 
     { path: '*', redirect: '/' }

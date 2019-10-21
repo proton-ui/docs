@@ -86,10 +86,10 @@
         "path": "/documentation/components/sortable"
     },
 
-    "/documentation/components/tab": {
-        "title": "Tab",
+    "/documentation/components/tabs": {
+        "title": "Tabs",
         "subtitle": "",
-        "path": "/documentation/components/tab"
+        "path": "/documentation/components/tabs"
     },
 
     "/documentation/components/treeview": {

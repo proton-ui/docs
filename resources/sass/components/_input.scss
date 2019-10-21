@@ -1,6 +1,6 @@
 input, select, textarea {
     &.form__control {
-        @apply appearance-none block w-full text-gray-700 border-2 border-gray-200 rounded p-2 leading-tight;
+        @apply appearance-none block w-full text-gray-700 border-2 border-gray-200 p-2 leading-tight;
 
         &:focus {
             @apply outline-none border-purple-500;
