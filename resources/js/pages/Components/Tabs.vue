@@ -11,6 +11,35 @@
         <hr>
 
         <p class="text-xs">Snippets of story taken from <a href="https://www.theverge.com/2019/1/23/18175285/cadwell-turnbull-sci-fi-story-common-ai-climate-change-better-worlds" target="_blank">Monsters Come Howling in Their Season</a>. A science fiction story about hope surrounding a friendly, open source AI and its aid in disaster.</p>
+
+        <api-reference :data="[{
+                title: 'Tabs',
+                slots: [
+                {
+                    name: '<code>default</code>',
+                    description: 'Tab area body.',
+                }
+            ]},
+            
+            {
+                title: 'Tab',
+                props: [
+                    {
+                        name: '<code>name</code>',
+                        description: 'The unique name of the tab.',
+                        type: '<code>String</code>',
+                    },
+
+                    {
+                        name: '<code>active</code>',
+                        description: 'Whether the tab is active by default.',
+                        type: '<code>Boolean</code>',
+                        values: 'true, false',
+                        default: 'false'
+                    },
+                ]
+            }]">
+        </api-reference>
     </article>
 </template>
 
