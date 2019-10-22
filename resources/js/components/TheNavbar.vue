@@ -1,5 +1,5 @@
 <template>
-        <div class="bg-white w-full z-50">
+        <div class="bg-white w-full">
             <nav class="w-full container mx-auto flex flex-wrap items-center mt-0 p-6">
                 <div class="w-1/2 pl-2 md:pl-0">
                     <a href="/" class="text-gray-800 text-xl no-underline hover:no-underline font-bold flex items-center hover:text-black">

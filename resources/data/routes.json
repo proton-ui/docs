@@ -74,6 +74,12 @@
         "path": "/documentation/components/input"
     },
 
+    "/documentation/components/modal": {
+        "title": "Modal",
+        "subtitle": "",
+        "path": "/documentation/components/modal"
+    },
+
     "/documentation/components/select": {
         "title": "Select",
         "subtitle": "",
