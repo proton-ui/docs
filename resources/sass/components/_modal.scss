@@ -1,12 +1,13 @@
 .modal {
-    @apply rounded shadow-md bg-white relative w-full max-w-lg m-auto;
+    @apply rounded shadow-md bg-white relative w-full m-auto;
+    max-width: 500px;
 
     &--large {
-        @apply max-w-xl;
+        max-width: 750px;
     }
 
     &--x-large {
-        @apply max-w-2xl;
+        max-width: 1000px;
     }
 
     &--overlay {

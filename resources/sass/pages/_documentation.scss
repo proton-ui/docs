@@ -3,10 +3,6 @@
         @apply mt-0;
     }
 
-    > * + * {
-        @apply mt-6;
-    }
-
     > ul:not(.list-none) {
         @apply pl-0 list-none;
     
