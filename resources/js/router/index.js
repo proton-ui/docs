@@ -33,6 +33,7 @@ const records = [
     route('/documentation/components/dropdown', 'Components/Dropdown'),
     route('/documentation/components/input', 'Components/Input'),
     route('/documentation/components/modal', 'Components/Modal'),
+    route('/documentation/components/radio', 'Components/Radio'),
     route('/documentation/components/select', 'Components/Select'),
     route('/documentation/components/sortable', 'Components/Sortable'),
     route('/documentation/components/tabs', 'Components/Tabs'),

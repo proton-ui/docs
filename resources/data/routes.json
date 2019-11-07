@@ -80,6 +80,12 @@
         "path": "/documentation/components/modal"
     },
 
+    "/documentation/components/radio": {
+        "title": "Radio",
+        "subtitle": "",
+        "path": "/documentation/components/radio"
+    },
+
     "/documentation/components/select": {
         "title": "Select",
         "subtitle": "",
